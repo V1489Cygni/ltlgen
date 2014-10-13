@@ -1,0 +1,28 @@
+parent.0 = ../../gp/koza/koza.params
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 9
+gp.fs.0.func.0 = ec.app.test1.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ec.app.test1.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ec.app.test1.Not
+gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.3 = ec.app.test1.G
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ec.app.test1.F
+gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.5 = ec.app.test1.X
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = ec.app.test1.U
+gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.7 = ec.app.test1.ERCEvent
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ec.app.test1.ERCAction
+gp.fs.0.func.8.nc = nc0
+
+eval.problem = ec.app.test1.LTLProblem
+eval.problem.data = ec.app.test1.LTLData
