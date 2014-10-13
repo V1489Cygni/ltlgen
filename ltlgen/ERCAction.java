@@ -21,7 +21,7 @@ public class ERCAction extends ERC {
     @Override
     public void eval(EvolutionState state, int thread, GPData input, ADFStack stack, GPIndividual individual, Problem problem) {
         LTLData data = ((LTLData) (input));
-        data.result = 1;
+        data.result = "wasAction(co.z" + value + ")";
     }
 
     @Override
@@ -31,6 +31,6 @@ public class ERCAction extends ERC {
 
     @Override
     public String toStringForHumans() {
-        return "a" + value;
+        return "wasAction(co.z" + value + ")";
     }
 }

@@ -7,23 +7,21 @@ import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
 
-public class Or extends GPNode {
+public class X extends GPNode {
     @Override
     public String toString() {
-        return "|";
+        return "X";
     }
 
     @Override
     public int expectedChildren() {
-        return 2;
+        return 1;
     }
 
     @Override
     public void eval(EvolutionState state, int thread, GPData input, ADFStack stack, GPIndividual individual, Problem problem) {
         LTLData data = ((LTLData) (input));
         children[0].eval(state, thread, input, stack, individual, problem);
-        int result = data.result;
-        children[1].eval(state, thread, input, stack, individual, problem);
-        data.result += result + 1;
+        data.result = "X(" + data.result + ")";
     }
 }

@@ -1,4 +1,4 @@
-package ec.app.test1;
+package ec.app.ltlgen;
 
 import ec.EvolutionState;
 import ec.Individual;

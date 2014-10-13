@@ -5,23 +5,23 @@ import ec.Problem;
 import ec.gp.*;
 import ec.util.Code;
 
-public class ERCAction extends ERC {
+public class ERCEvent extends ERC {
     private int value;
 
     @Override
     public void resetNode(EvolutionState state, int thread) {
-        value = state.random[thread].nextInt(LTLProblem.ACTION_NUMBER);
+        value = state.random[thread].nextInt(LTLProblem.EVENT_NUMBER);
     }
 
     @Override
     public boolean nodeEquals(GPNode node) {
-        return node instanceof ERCAction && value == ((ERCAction) node).value;
+        return node instanceof ERCEvent && value == ((ERCEvent) node).value;
     }
 
     @Override
     public void eval(EvolutionState state, int thread, GPData input, ADFStack stack, GPIndividual individual, Problem problem) {
         LTLData data = ((LTLData) (input));
-        data.result = 1;
+        data.result = "wasEvent(ep." + (char) ('A' + value) + ")";
     }
 
     @Override
@@ -31,6 +31,6 @@ public class ERCAction extends ERC {
 
     @Override
     public String toStringForHumans() {
-        return "a" + value;
+        return "wasEvent(ep." + (char) ('A' + value) + ")";
     }
 }

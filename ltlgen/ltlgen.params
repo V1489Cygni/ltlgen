@@ -26,3 +26,8 @@ gp.fs.0.func.8.nc = nc0
 
 eval.problem = ec.app.ltlgen.LTLProblem
 eval.problem.data = ec.app.ltlgen.LTLData
+eval.problem.en = 2
+eval.problem.an = 2
+eval.problem.automaton = efsm.gv
+eval.problem.automaton-ns = 6
+eval.problem.test.size = 5
