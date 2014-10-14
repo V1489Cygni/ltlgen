@@ -9,11 +9,6 @@ import ec.gp.GPNode;
 
 public class U extends GPNode {
     @Override
-    public String toString() {
-        return "U";
-    }
-
-    @Override
     public int expectedChildren() {
         return 2;
     }
@@ -25,5 +20,15 @@ public class U extends GPNode {
         String left = data.result;
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "U(" + left + ", " + data.result + ")";
+    }
+
+    @Override
+    public String toStringForHumans() {
+        return "U(" + children[0].toStringForHumans() + ", " + children[1].toStringForHumans() + ")";
+    }
+
+    @Override
+    public String toString() {
+        return "U";
     }
 }

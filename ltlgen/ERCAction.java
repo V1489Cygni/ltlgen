@@ -33,4 +33,9 @@ public class ERCAction extends ERC {
     public String toStringForHumans() {
         return "wasAction(co.z" + value + ")";
     }
+
+    @Override
+    public String toString() {
+        return "wasAction(co.z" + value + ")";
+    }
 }

@@ -1,5 +1,10 @@
 parent.0 = ../../gp/koza/koza.params
 
+generations = 100
+
+gp.koza.half.max-depth = 6
+breed.elite.0 = 2
+
 gp.fs.size = 1
 gp.fs.0 = ec.gp.GPFunctionSet
 gp.fs.0.name = f0
@@ -26,8 +31,14 @@ gp.fs.0.func.8.nc = nc0
 
 eval.problem = ec.app.ltlgen.LTLProblem
 eval.problem.data = ec.app.ltlgen.LTLData
-eval.problem.en = 2
-eval.problem.an = 2
-eval.problem.automaton = efsm.gv
-eval.problem.automaton-ns = 6
-eval.problem.test.size = 5
+eval.problem.automaton.file = efsm.gv
+eval.problem.automaton.state-number = 3
+eval.problem.automaton.event-number = 4
+eval.problem.automaton.action-number = 7
+eval.problem.test-automatons.number = 20
+eval.problem.test-automatons.mutated = 10
+
+stat.num-children = 1
+stat.child.0 = ec.app.ltlgen.LTLStatistics
+stat.child.0.logfile = $log.txt
+stat.child.0.best-number = 5

@@ -33,4 +33,9 @@ public class ERCEvent extends ERC {
     public String toStringForHumans() {
         return "wasEvent(ep." + (char) ('A' + value) + ")";
     }
+
+    @Override
+    public String toString() {
+        return "wasEvent(ep." + (char) ('A' + value) + ")";
+    }
 }
