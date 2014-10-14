@@ -1,0 +1,50 @@
+parent.0 = ../../gp/koza/koza.params
+parent.1 = ../../multiobjective/nsga2/nsga2.params
+
+pop.subpop.0.species.fitness = ec.multiobjective.nsga2.NSGA2MultiObjectiveFitness
+multi.fitness.num-objectives = 2
+multi.fitness.maximize = true
+eval = ec.multiobjective.nsga2.NSGA2Evaluator
+breed = ec.multiobjective.nsga2.NSGA2Breeder
+
+generations = 100
+
+gp.koza.half.max-depth = 6
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 9
+gp.fs.0.func.0 = ec.app.ltlgen.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ec.app.ltlgen.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ec.app.ltlgen.Not
+gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.3 = ec.app.ltlgen.G
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ec.app.ltlgen.F
+gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.5 = ec.app.ltlgen.X
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = ec.app.ltlgen.U
+gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.7 = ec.app.ltlgen.ERCEvent
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ec.app.ltlgen.ERCAction
+gp.fs.0.func.8.nc = nc0
+
+eval.problem = ec.app.ltlgen.LTLProblem
+eval.problem.data = ec.app.ltlgen.LTLData
+eval.problem.automaton.file = efsm.gv
+eval.problem.automaton.state-number = 3
+eval.problem.automaton.event-number = 4
+eval.problem.automaton.action-number = 7
+eval.problem.test-automatons.number = 20
+eval.problem.test-automatons.mutated = 10
+
+stat.num-children = 1
+stat.child.0 = ec.app.ltlgen.LTLStatistics
+stat.child.0.logfile = $result.stat
+stat.child.0.best-number = 5
