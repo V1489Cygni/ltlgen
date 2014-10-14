@@ -1,9 +1,10 @@
 gp
 ==
 
-Genetic programming
+LTL-formulas generation using genetic programming.
 
-Place "test1" folder into "ec/app" folder in ECJ.
-Use "javac ec/app/test1/*.java" to compile classes.
-Use "java ec.Evolve -file ec/app/test1/test1.params" to run the problem.
-Detailed stats will be in "out.stat" file. 
+Place "ltlgen" folder into "ec/app" folder in ECJ.
+Use "javac -cp verifier.jar ec/app/ltlgen/*.java" to compile classes.
+Use "java -cp verifier.jar:. ec.Evolve -file ec/app/ltlgen/ltlgen.params" to run the program.
+Detailed stats will be in "result.stat" file.
+The program expects to find the automaton generator in its working directory.
