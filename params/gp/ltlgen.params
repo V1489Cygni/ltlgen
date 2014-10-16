@@ -1,0 +1,48 @@
+parent.0 = ../koza.params
+
+generations = 15
+
+gp.koza.half.max-depth = 5
+breed.elite.0 = 1
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 10
+gp.fs.0.func.0 = ltlgen.gp.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ltlgen.gp.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ltlgen.gp.Not
+gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.3 = ltlgen.gp.G
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ltlgen.gp.F
+gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.5 = ltlgen.gp.X
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = ltlgen.gp.U
+gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.7 = ltlgen.gp.ERCEvent
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ltlgen.gp.ERCAction
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = ltlgen.gp.R
+gp.fs.0.func.9.nc = nc2
+
+eval.problem = ltlgen.gp.LTLProblem
+eval.problem.data = ltlgen.gp.LTLData
+eval.problem.automaton.file = efsm.gv
+eval.problem.automaton.state-number = 3
+eval.problem.automaton.event-number = 4
+eval.problem.automaton.action-number = 7
+eval.problem.test-automatons.number = 10
+eval.problem.test-automatons.mutated = 5
+
+stat.file = $output/gp/out.stat
+
+stat.num-children = 1
+stat.child.0 = ltlgen.gp.LTLStatistics
+stat.child.0.logfile = $output/gp/result.stat
+stat.child.0.best-number = 10

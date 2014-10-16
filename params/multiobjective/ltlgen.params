@@ -1,0 +1,57 @@
+parent.0 = ../koza.params
+parent.1 = ../nsga2.params
+
+pop.subpop.0.species.fitness = ec.multiobjective.nsga2.NSGA2MultiObjectiveFitness
+multi.fitness.num-objectives = 2
+multi.fitness.maximize = true
+eval = ec.multiobjective.nsga2.NSGA2Evaluator
+breed = ec.multiobjective.nsga2.NSGA2Breeder
+
+generations = 50
+
+gp.koza.half.max-depth = 6
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 10
+gp.fs.0.func.0 = ltlgen.multiobjective.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ltlgen.multiobjective.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ltlgen.multiobjective.Not
+gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.3 = ltlgen.multiobjective.G
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ltlgen.multiobjective.F
+gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.5 = ltlgen.multiobjective.X
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = ltlgen.multiobjective.U
+gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.7 = ltlgen.multiobjective.ERCEvent
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ltlgen.multiobjective.ERCAction
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = ltlgen.multiobjective.R
+gp.fs.0.func.9.nc = nc2
+
+eval.problem = ltlgen.multiobjective.LTLProblem
+eval.problem.data = ltlgen.multiobjective.LTLData
+eval.problem.automaton.file = efsm.gv
+eval.problem.automaton.state-number = 3
+eval.problem.automaton.event-number = 4
+eval.problem.automaton.action-number = 7
+eval.problem.test-automatons.number = 40
+eval.problem.test-automatons.mutated = 20
+
+stat = ec.multiobjective.MultiObjectiveStatistics
+stat.front = $output/multiobjective/front.stat
+
+stat.file = $output/multiobjective/out.stat
+
+stat.num-children = 1
+stat.child.0 = ltlgen.multiobjective.LTLStatistics
+stat.child.0.logfile = $output/multiobjective/result.stat
+stat.child.0.best-number = 10
