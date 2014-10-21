@@ -1,10 +1,10 @@
 parent.0 = ../koza.params
 parent.1 = ../spea2.params
 
-pop.subpop.0.size = 256
-breed.elite.0 =	32
+pop.subpop.0.size = 300
+breed.elite.0 =	50
 pop.subpop.0.species.fitness = ec.multiobjective.spea2.SPEA2MultiObjectiveFitness
-multi.fitness.num-objectives = 3
+multi.fitness.num-objectives = 4
 multi.fitness.maximize = true
 eval = ec.multiobjective.spea2.SPEA2Evaluator
 breed = ec.multiobjective.spea2.SPEA2Breeder
@@ -55,7 +55,7 @@ eval.problem.automaton.state-number = 3
 eval.problem.automaton.event-number = 4
 eval.problem.automaton.action-number = 7
 eval.problem.test-automatons.number = 50
-eval.problem.test-automatons.mutated = 0
+eval.problem.test-automatons.mutated = 40
 
 stat = ec.multiobjective.MultiObjectiveStatistics
 stat.front = $output/multiobjective/front.stat
