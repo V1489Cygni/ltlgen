@@ -4,7 +4,7 @@ import ec.EvolutionState;
 import ec.Individual;
 import ec.gp.GPIndividual;
 import ec.gp.GPProblem;
-import ec.multiobjective.nsga2.NSGA2MultiObjectiveFitness;
+import ec.multiobjective.spea2.SPEA2MultiObjectiveFitness;
 import ec.util.Parameter;
 import ru.ifmo.ctddev.genetic.transducer.algorithm.FST;
 import ru.ifmo.ctddev.tools.Verifier;
@@ -17,10 +17,10 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class LTLProblem extends GPProblem {
-    public static volatile int EVENT_NUMBER;
-    public static volatile int ACTION_NUMBER;
-    private static volatile FST automaton;
-    private static volatile FST[] testAutomatons;
+    public static int EVENT_NUMBER;
+    public static int ACTION_NUMBER;
+    private static FST automaton;
+    private static FST[] testAutomatons;
 
     @Override
     public void setup(final EvolutionState state, final Parameter base) {
@@ -63,19 +63,19 @@ public class LTLProblem extends GPProblem {
         if (!ind.evaluated) {
             LTLData input = (LTLData) this.input;
             ((GPIndividual) ind).trees[0].child.eval(state, threadnum, input, stack, ((GPIndividual) ind), this);
-            //KozaFitness f = ((KozaFitness) ind.fitness);
-            NSGA2MultiObjectiveFitness f = (NSGA2MultiObjectiveFitness) ind.fitness;
+            SPEA2MultiObjectiveFitness f = (SPEA2MultiObjectiveFitness) ind.fitness;
             String formula = "G(" + input.result + ")";
-            int result = Verifier.isFormulaTrue(automaton, formula) ? 0 : Integer.MAX_VALUE;
-            if (result == 0) {
+            double result = 0, size = 0;
+            double r = Verifier.getVerifiedTransitionsRatio(automaton, formula);
+            if (r >= 0.75) {
+                size = 1 / (1.0 + input.size);
                 for (FST fst : testAutomatons) {
-                    if (Verifier.isFormulaTrue(fst, formula)) {
-                        result++;
-                    }
+                    double t = Verifier.getVerifiedTransitionsRatio(fst, formula);
+                    result += Math.pow(t, 2);
                 }
+                result = 1 - Math.sqrt(result) / testAutomatons.length;
             }
-            //f.setStandardizedFitness(state, result);
-            f.setObjectives(state, new double[]{result == Integer.MAX_VALUE ? 0 : 1 / (1.0 + result), result == Integer.MAX_VALUE ? 0 : 1 / (1.0 + input.size)});
+            f.setObjectives(state, new double[]{r, result, size});
             ind.evaluated = true;
         }
     }

@@ -1,6 +1,6 @@
 parent.0 = ../koza.params
 
-generations = 15
+generations = 30
 
 gp.koza.half.max-depth = 5
 breed.elite.0 = 1
@@ -38,7 +38,7 @@ eval.problem.automaton.state-number = 3
 eval.problem.automaton.event-number = 4
 eval.problem.automaton.action-number = 7
 eval.problem.test-automatons.number = 10
-eval.problem.test-automatons.mutated = 5
+eval.problem.test-automatons.mutated = 10
 
 stat.file = $output/gp/out.stat
 

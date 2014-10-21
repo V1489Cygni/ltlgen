@@ -47,7 +47,7 @@ public class LTLStatistics extends Statistics {
     public void finalStatistics(final EvolutionState state, int result) {
         state.output.print("----------------\nResult: ", logFile);
         state.output.println(result == state.R_SUCCESS ? "Ideal individual found." : "Ideal individual not found.", logFile);
-        state.output.println("Showing best individuals: ", logFile);
+        state.output.println("Showing best individuals:\n", logFile);
         List<Individual> individuals = new ArrayList<>();
         for (Individual individual : state.population.subpops[0].individuals) {
             individuals.add(individual);
@@ -61,7 +61,7 @@ public class LTLStatistics extends Statistics {
             }
             String ind = "G(" + ((GPIndividual) individuals.get(i)).trees[0].child.toStringForHumans() + ")";
             if (!shown.contains(ind)) {
-                state.output.println(ind, logFile);
+                state.output.println(ind + "\n" + individuals.get(i).fitness.fitnessToStringForHumans() + "\n", logFile);
                 shown.add(ind);
                 count++;
             }
@@ -69,8 +69,13 @@ public class LTLStatistics extends Statistics {
         state.output.println("----------------\nFront: ", logFile);
         ArrayList<Individual> front = new ArrayList<>();
         MultiObjectiveFitness.partitionIntoParetoFront(state.population.subpops[0].individuals, front, null);
+        shown.clear();
         for (Individual individual : front) {
-            state.output.println("G(" + ((GPIndividual) individual).trees[0].child.toStringForHumans() + ")", logFile);
+            String ind = "G(" + ((GPIndividual) individual).trees[0].child.toStringForHumans() + ")";
+            if (!shown.contains(ind)) {
+                state.output.println(ind, logFile);
+                shown.add(ind);
+            }
         }
     }
 
