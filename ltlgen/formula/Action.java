@@ -1,11 +1,13 @@
-package ltlgen.gp;
+package ltlgen.formula;
 
 import ec.EvolutionState;
 import ec.Problem;
 import ec.gp.*;
 import ec.util.Code;
+import ltlgen.LTLData;
+import ltlgen.LTLProblem;
 
-public class ERCAction extends ERC {
+public class Action extends ERC {
     private int value;
 
     @Override
@@ -15,7 +17,7 @@ public class ERCAction extends ERC {
 
     @Override
     public boolean nodeEquals(GPNode node) {
-        return node instanceof ERCAction && value == ((ERCAction) node).value;
+        return node instanceof Action && value == ((Action) node).value;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package ltlgen.gp;
+package ltlgen.formula;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,6 +6,7 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
+import ltlgen.LTLData;
 
 public class Not extends GPNode {
     @Override

@@ -1,11 +1,13 @@
-package ltlgen.multiobjective;
+package ltlgen.formula;
 
 import ec.EvolutionState;
 import ec.Problem;
 import ec.gp.*;
 import ec.util.Code;
+import ltlgen.LTLData;
+import ltlgen.LTLProblem;
 
-public class ERCEvent extends ERC {
+public class Event extends ERC {
     private int value;
 
     @Override
@@ -15,7 +17,7 @@ public class ERCEvent extends ERC {
 
     @Override
     public boolean nodeEquals(GPNode node) {
-        return node instanceof ERCEvent && value == ((ERCEvent) node).value;
+        return node instanceof Event && value == ((Event) node).value;
     }
 
     @Override

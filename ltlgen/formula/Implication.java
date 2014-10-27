@@ -1,4 +1,4 @@
-package ltlgen.multiobjective;
+package ltlgen.formula;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,8 +6,9 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
+import ltlgen.LTLData;
 
-public class Or extends GPNode {
+public class Implication extends GPNode {
     @Override
     public int expectedChildren() {
         return 2;
@@ -20,17 +21,17 @@ public class Or extends GPNode {
         String left = data.result;
         int size = data.size;
         children[1].eval(state, thread, input, stack, individual, problem);
-        data.result = "(" + left + " || " + data.result + ")";
+        data.result = "(!(" + left + ") || " + data.result + ")";
         data.size += size + 1;
     }
 
     @Override
     public String toStringForHumans() {
-        return "(" + children[0].toStringForHumans() + " || " + children[1].toStringForHumans() + ")";
+        return "(" + children[0].toStringForHumans() + " -> " + children[1].toStringForHumans() + ")";
     }
 
     @Override
     public String toString() {
-        return "||";
+        return "->";
     }
 }
