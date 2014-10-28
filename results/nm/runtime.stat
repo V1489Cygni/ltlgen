@@ -1,0 +1,227 @@
+
+| ECJ
+| An evolutionary computation system (version 22)
+| By Sean Luke
+| Contributors: L. Panait, G. Balan, S. Paus, Z. Skolicki, R. Kicinger,
+|               E. Popovici, K. Sullivan, J. Harrison, J. Bassett, R. Hubley,
+|               A. Desai, A. Chircop, J. Compton, W. Haddon, S. Donnelly,
+|               B. Jamil, J. Zelibor, E. Kangas, F. Abidi, H. Mooers,
+|               J. O'Beirne, L. Manzoni, K. Talukder, and J. McDermott
+| URL: http://cs.gmu.edu/~eclab/projects/ecj/
+| Mail: ecj-help@cs.gmu.edu
+|       (better: join ECJ-INTEREST at URL above)
+| Date: August 1, 2014
+| Current Java: 1.8.0_11 / Java HotSpot(TM) 64-Bit Server VM-25.11-b03
+| Required Minimum Java: 1.5
+
+
+Threads:  breed/1 eval/1
+Seed: 1479788079 
+Job: 0
+Setting up
+Processing GP Types
+Processing GP Node Constraints
+Processing GP Function Sets
+Processing GP Tree Constraints
+Initializing RandomProvider with seed = 1414524028521
+Thread #1 is registering
+Initializing Generation 0
+Subpop 0 best fitness of generation Fitness: [1.0 0.98 0.9285714285714286 0.993866900803714 0.0625]
+Strength: 448.0
+Distance: 0.37990572774512965 Fitness: 0.37990572774512965
+Generation 1
+Subpop 0 best fitness of generation Fitness: [1.0 0.9339999999999999 0.7857142857142857 0.8715489943511922 0.07142857142857142]
+Strength: 388.0
+Distance: 0.43464694141869015 Fitness: 0.43464694141869015
+Generation 2
+Subpop 0 best fitness of generation Fitness: [1.0 0.9862222222222222 1.0 0.9990096975673899 0.2]
+Strength: 487.0
+Distance: 0.45407817764104924 Fitness: 0.45407817764104924
+Generation 3
+Subpop 0 best fitness of generation Fitness: [1.0 0.9384444444444444 0.0 0.04770408163265305 0.25]
+Strength: 259.0
+Distance: 0.4530642266499857 Fitness: 0.4530642266499857
+Generation 4
+Subpop 0 best fitness of generation Fitness: [1.0 0.9384444444444444 0.0 0.04770408163265305 0.25]
+Strength: 245.0
+Distance: 0.4518785902992857 Fitness: 0.4518785902992857
+Generation 5
+Subpop 0 best fitness of generation Fitness: [1.0 0.9384444444444444 0.0 0.04770408163265305 0.25]
+Strength: 257.0
+Distance: 0.45655602216270386 Fitness: 0.45655602216270386
+Generation 6
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 303.0
+Distance: 0.46587006009946386 Fitness: 0.46587006009946386
+Generation 7
+Subpop 0 best fitness of generation Fitness: [1.0 0.9862222222222222 0.0 0.0 0.25]
+Strength: 225.0
+Distance: 0.4836722197168837 Fitness: 0.4836722197168837
+Generation 8
+Subpop 0 best fitness of generation Fitness: [1.0 0.992 1.0 1.0 0.14285714285714285]
+Strength: 288.0
+Distance: 0.4921504144873613 Fitness: 0.4921504144873613
+Generation 9
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 224.0
+Distance: 0.45637999466166296 Fitness: 0.45637999466166296
+Generation 10
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 173.0
+Distance: 0.42072292964977404 Fitness: 0.42072292964977404
+Generation 11
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 161.0
+Distance: 0.4216131632389862 Fitness: 0.4216131632389862
+Generation 12
+Subpop 0 best fitness of generation Fitness: [1.0 0.9333333333333333 1.0 0.9997448979591836 0.16666666666666666]
+Strength: 152.0
+Distance: 0.4838803835182871 Fitness: 0.4838803835182871
+Generation 13
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 1.0 0.9990096975673899 0.2]
+Strength: 221.0
+Distance: 0.47250196407424044 Fitness: 0.47250196407424044
+Generation 14
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 161.0
+Distance: 0.42072292964977404 Fitness: 0.42072292964977404
+Generation 15
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 151.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 16
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 141.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 17
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 139.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 18
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 101.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 19
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 89.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 20
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 83.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 21
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 78.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 22
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 94.0
+Distance: 0.41893983180432953 Fitness: 0.41893983180432953
+Generation 23
+Subpop 0 best fitness of generation Fitness: [1.0 0.9955555555555555 1.0 0.9989795918367347 0.14285714285714285]
+Strength: 54.0
+Distance: 0.29585666247828574 Fitness: 0.29585666247828574
+Generation 24
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 108.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 25
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 86.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 26
+Subpop 0 best fitness of generation Fitness: [1.0 0.938 0.0 0.050000000000000044 0.16666666666666666]
+Strength: 81.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 27
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 93.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 28
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 74.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 29
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 65.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 30
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 86.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 31
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 99.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 32
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 91.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 33
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 66.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 34
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 87.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 35
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 92.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 36
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 76.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 37
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 85.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 38
+Subpop 0 best fitness of generation Fitness: [1.0 0.9444444444444444 0.0 0.04770408163265305 0.125]
+Strength: 77.0
+Distance: 0.4896621170072705 Fitness: 0.4896621170072705
+Generation 39
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 92.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 40
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 107.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 41
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 84.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 42
+Subpop 0 best fitness of generation Fitness: [1.0 0.9871111111111112 0.0 0.0 0.16666666666666666]
+Strength: 91.0
+Distance: 0.4830719611247882 Fitness: 0.4830719611247882
+Generation 43
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 94.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 44
+Subpop 0 best fitness of generation Fitness: [1.0 0.9397777777777778 0.0 0.050000000000000044 0.1]
+Strength: 100.0
+Distance: 0.48386541901730096 Fitness: 0.48386541901730096
+Generation 45
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 87.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 46
+Subpop 0 best fitness of generation Fitness: [1.0 0.9386666666666666 0.0 0.050000000000000044 0.1]
+Strength: 95.0
+Distance: 0.4838701873256594 Fitness: 0.4838701873256594
+Generation 47
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 93.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443
+Generation 48
+Subpop 0 best fitness of generation Fitness: [1.0 0.9408888888888889 0.0 0.048979591836734726 0.125]
+Strength: 99.0
+Distance: 0.48976893323674 Fitness: 0.48976893323674
+Generation 49
+Subpop 0 best fitness of generation Fitness: [1.0 0.6306666666666667 0.9285714285714286 0.993866900803714 0.25]
+Strength: 82.0
+Distance: 0.2975345577122443 Fitness: 0.2975345577122443

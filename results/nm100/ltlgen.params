@@ -1,0 +1,117 @@
+parent.0 = koza.params
+parent.1 = spea2.params
+
+#
+# General
+#
+
+eval.problem = ltlgen.LTLProblem
+eval.problem.data = ltlgen.LTLData
+
+eval = ec.multiobjective.spea2.SPEA2Evaluator
+breed = ec.multiobjective.spea2.SPEA2Breeder
+
+pop.subpop.0.size = 1000
+breed.elite.0 =	100
+
+generations = 100
+
+#
+# Pipeline
+#
+
+pop.subpop.0.species.pipe.num-sources = 2
+pop.subpop.0.species.pipe.source.0 = ec.gp.koza.CrossoverPipeline
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.0.source.0 = ec.multiobjective.spea2.SPEA2TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.1 = ec.multiobjective.spea2.SPEA2TournamentSelection
+pop.subpop.0.species.pipe.source.1 = ec.breed.ReproductionPipeline
+pop.subpop.0.species.pipe.source.1.prob = 0.1
+
+select.tournament.size = 2
+
+gp.koza.half.max-depth = 6
+
+#
+# Fitness
+#
+
+pop.subpop.0.species.fitness = ec.multiobjective.spea2.SPEA2MultiObjectiveFitness
+multi.fitness.maximize = true
+multi.fitness.num-objectives = 5
+
+eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
+eval.problem.fitness.0.threshold = 0.75
+
+eval.problem.fitness.1 = ltlgen.fitnesses.RandomFitness
+eval.problem.fitness.1.number = 50
+
+eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
+
+eval.problem.fitness.3 = ltlgen.fitnesses.MutatedScenariosFitness
+eval.problem.fitness.3.number = 50
+
+eval.problem.fitness.4 = ltlgen.fitnesses.SizeFitness
+
+#
+# Structure
+#
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 11
+gp.fs.0.func.0 = ltlgen.formula.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ltlgen.formula.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ltlgen.formula.Implication
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = ltlgen.formula.Not
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ltlgen.formula.U
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = ltlgen.formula.R
+gp.fs.0.func.5.nc = nc2
+gp.fs.0.func.6 = ltlgen.formula.G
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = ltlgen.formula.X
+gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.8 = ltlgen.formula.F
+gp.fs.0.func.8.nc = nc1
+gp.fs.0.func.9 = ltlgen.formula.Event
+gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.10 = ltlgen.formula.Action
+gp.fs.0.func.10.nc = nc0
+
+#
+# Automaton
+#
+
+automaton.file = lift-efsm.gv
+automaton.state-number = 6
+automaton.event-number = 5
+automaton.action-number = 3
+automaton.variable-number = 0
+
+#
+# Scenarios
+#
+
+scenarios.file = lift-scenarios-efsm.gv
+scenarios.state-number = 6
+
+#
+# Stats
+#
+
+stat = ec.multiobjective.MultiObjectiveStatistics
+stat.front = $output/front.stat
+stat.file = $output/out.stat
+
+stat.num-children = 1
+stat.child.0 = ltlgen.LTLStatistics
+stat.child.0.log = $output/log.stat
+stat.child.0.result = $output/result.stat
+stat.child.0.best-number = 50
