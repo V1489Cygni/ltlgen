@@ -20,7 +20,7 @@ public class ScenariosFitness extends SingleFitness {
 
     @Override
     public double getFitness(String formula, int size) {
-        double result = Verifier.getVerifiedTransitionsRatio(scenarios, formula);
+        double result = 1 - Verifier.getVerifiedTransitionsRatio(scenarios, formula);
         return result < threshold ? -1 : result;
     }
 }

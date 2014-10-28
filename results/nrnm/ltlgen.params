@@ -45,8 +45,8 @@ eval.problem.fitness.0.threshold = 0.75
 
 eval.problem.fitness.1 = ltlgen.fitnesses.ScenariosFitness
 
-eval.problem.fitness.2 = ltlgen.fitnesses.MutatedFitness
-eval.problem.fitness.2.number = 40
+eval.problem.fitness.2 = ltlgen.fitnesses.MutatedScenariosFitness
+eval.problem.fitness.2.number = 20
 
 eval.problem.fitness.3 = ltlgen.fitnesses.SizeFitness
 

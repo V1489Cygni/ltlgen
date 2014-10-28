@@ -1,0 +1,3777 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9449794291483852 0.25]
+Strength: 475.0
+Distance: 0.45238480775632856 Fitness: 0.45238480775632856
+Tree 0:
+ (F(!(wasAction(co.z2))) (!(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9449794291483852 0.25]
+Strength: 455.0
+Distance: 0.4599959936848927 Fitness: 0.4599959936848927
+Tree 0:
+ (F(!(wasAction(co.z2))) (!(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 444.0
+Distance: 0.4675324675324675 Fitness: 0.4675324675324675
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.7857142857142857 0.9583579462356935 0.125]
+Strength: 249.0
+Distance: 0.4753461781464696 Fitness: 0.4753461781464696
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> X(!(wasEvent(ep.E))))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) (X(!(wasEvent(ep.E))) (!(wasEvent(ep.E))
+     wasEvent(ep.E))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.7857142857142857 0.9583579462356935 0.125]
+Strength: 243.0
+Distance: 0.4656437226040717 Fitness: 0.4656437226040717
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> X(!(wasEvent(ep.E))))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) (X(!(wasEvent(ep.E))) (!(wasEvent(ep.E))
+     wasEvent(ep.E))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.8571428571428572 0.9710104455983577 0.07692307692307693]
+Strength: 215.0
+Distance: 0.47912876280187916 Fitness: 0.47912876280187916
+Tree 0:
+ (((!(F(wasEvent(ep.C))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(F(wasEvent(ep.C))) || wasEvent(ep.C))
+         (!(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+             wasEvent(ep.C))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.8571428571428572 0.9710104455983577 0.07692307692307693]
+Strength: 199.0
+Distance: 0.47912876280187916 Fitness: 0.47912876280187916
+Tree 0:
+ (((!(F(wasEvent(ep.C))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(F(wasEvent(ep.C))) || wasEvent(ep.C))
+         (!(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+             wasEvent(ep.C))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.09897959183673455 1.0 0.9984286318077527 0.047619047619047616]
+Strength: 161.0
+Distance: 0.4750057809901043 Fitness: 0.4750057809901043
+Tree 0:
+ (((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> !(wasAction(co.z2))) -> (wasEvent(ep.B) -> wasAction(co.z0)))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> !(wasAction(co.z2))) -> (wasEvent(ep.B) -> wasAction(co.z0)))) || wasEvent(ep.C))
+         (!(((R(wasAction(co.z0), wasEvent(ep.C)) -> !(wasAction(co.z2))) -> (wasEvent(ep.B) -> wasAction(co.z0))))
+             (((R(wasAction(co.z0), wasEvent(ep.C)) -> !(wasAction(co.z2))) -> (wasEvent(ep.B) -> wasAction(co.z0)))
+                 ((R(wasAction(co.z0), wasEvent(ep.C)) -> !(wasAction(co.z2)))
+                     (R(wasAction(co.z0), wasEvent(ep.C)) wasAction(co.z0)
+                         wasEvent(ep.C)) (!(wasAction(co.z2)) wasAction(co.z2)))
+                 ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+                     wasAction(co.z0)))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.09081632653061222 1.0 0.9997041420118343 0.043478260869565216]
+Strength: 145.0
+Distance: 0.46883450532052473 Fitness: 0.46883450532052473
+Tree 0:
+ (((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C))
+         (!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B)))))
+             (((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))
+                 ((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0)))
+                     (R(wasAction(co.z0), wasEvent(ep.C)) wasAction(co.z0)
+                         wasEvent(ep.C)) ((wasEvent(ep.B) -> wasAction(co.z0))
+                     wasEvent(ep.B) wasAction(co.z0))) (!((wasAction(co.z1) and wasEvent(ep.B)))
+                 ((wasAction(co.z1) and wasEvent(ep.B)) wasAction(co.z1)
+                     wasEvent(ep.B))))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.09081632653061222 1.0 0.9997041420118343 0.043478260869565216]
+Strength: 174.0
+Distance: 0.4745095434951017 Fitness: 0.4745095434951017
+Tree 0:
+ (((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C))
+         (!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B)))))
+             (((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))
+                 ((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0)))
+                     (R(wasAction(co.z0), wasEvent(ep.C)) wasAction(co.z0)
+                         wasEvent(ep.C)) ((wasEvent(ep.B) -> wasAction(co.z0))
+                     wasEvent(ep.B) wasAction(co.z0))) (!((wasAction(co.z1) and wasEvent(ep.B)))
+                 ((wasAction(co.z1) and wasEvent(ep.B)) wasAction(co.z1)
+                     wasEvent(ep.B))))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.09081632653061222 1.0 0.9997041420118343 0.043478260869565216]
+Strength: 121.0
+Distance: 0.4625501436044549 Fitness: 0.4625501436044549
+Tree 0:
+ (((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))) || wasEvent(ep.C))
+         (!(((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B)))))
+             (((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0))) -> !((wasAction(co.z1) and wasEvent(ep.B))))
+                 ((R(wasAction(co.z0), wasEvent(ep.C)) -> (wasEvent(ep.B) -> wasAction(co.z0)))
+                     (R(wasAction(co.z0), wasEvent(ep.C)) wasAction(co.z0)
+                         wasEvent(ep.C)) ((wasEvent(ep.B) -> wasAction(co.z0))
+                     wasEvent(ep.B) wasAction(co.z0))) (!((wasAction(co.z1) and wasEvent(ep.B)))
+                 ((wasAction(co.z1) and wasEvent(ep.B)) wasAction(co.z1)
+                     wasEvent(ep.B))))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.09999999999999998 1.0 0.9923061828281609 0.07142857142857142]
+Strength: 132.0
+Distance: 0.47340195582418454 Fitness: 0.47340195582418454
+Tree 0:
+ (((!((wasEvent(ep.B) -> wasAction(co.z0))) || wasEvent(ep.C)) -> X((!(wasAction(co.z2)) || G(wasEvent(ep.E)))))
+     ((!((wasEvent(ep.B) -> wasAction(co.z0))) || wasEvent(ep.C))
+         (!((wasEvent(ep.B) -> wasAction(co.z0)))
+             ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+                 wasAction(co.z0))) wasEvent(ep.C)) (X((!(wasAction(co.z2)) || G(wasEvent(ep.E))))
+     ((!(wasAction(co.z2)) || G(wasEvent(ep.E)))
+         (!(wasAction(co.z2)) wasAction(co.z2)) (G(wasEvent(ep.E))
+         wasEvent(ep.E)))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.048979591836734726 1.0 0.9996527777777777 0.1111111111111111]
+Strength: 135.0
+Distance: 0.4786373606930062 Fitness: 0.4786373606930062
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> G(U(wasEvent(ep.A), wasAction(co.z2))))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) (G(U(wasEvent(ep.A), wasAction(co.z2)))
+     (U(wasEvent(ep.A), wasAction(co.z2)) wasEvent(ep.A)
+         wasAction(co.z2))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 142.0
+Distance: 0.47232769379939116 Fitness: 0.47232769379939116
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.048979591836734726 1.0 0.9996527777777777 0.1111111111111111]
+Strength: 83.0
+Distance: 0.4621596930932818 Fitness: 0.4621596930932818
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> G(U(wasEvent(ep.A), wasAction(co.z2))))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) (G(U(wasEvent(ep.A), wasAction(co.z2)))
+     (U(wasEvent(ep.A), wasAction(co.z2)) wasEvent(ep.A)
+         wasAction(co.z2))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 118.0
+Distance: 0.47701460889363295 Fitness: 0.47701460889363295
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.048979591836734726 1.0 0.9996527777777777 0.1111111111111111]
+Strength: 87.0
+Distance: 0.47076463900239873 Fitness: 0.47076463900239873
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> G(U(wasEvent(ep.A), wasAction(co.z2))))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) (G(U(wasEvent(ep.A), wasAction(co.z2)))
+     (U(wasEvent(ep.A), wasAction(co.z2)) wasEvent(ep.A)
+         wasAction(co.z2))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.048979591836734726 0.9285714285714286 0.9949794291483852 0.14285714285714285]
+Strength: 147.0
+Distance: 0.48172396581185645 Fitness: 0.48172396581185645
+Tree 0:
+ (G((G(F(wasEvent(ep.C))) -> wasAction(co.z0)))
+     ((G(F(wasEvent(ep.C))) -> wasAction(co.z0))
+         (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+             wasEvent(ep.C))) wasAction(co.z0)))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 101.0
+Distance: 0.47872059484206103 Fitness: 0.47872059484206103
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9991425736961451 0.2]
+Strength: 138.0
+Distance: 0.4861105728935423 Fitness: 0.4861105728935423
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 111.0
+Distance: 0.47872059484206103 Fitness: 0.47872059484206103
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9991425736961451 0.2]
+Strength: 113.0
+Distance: 0.49180233433264686 Fitness: 0.49180233433264686
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 103.0
+Distance: 0.47232107103869503 Fitness: 0.47232107103869503
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 116.0
+Distance: 0.47232107103869503 Fitness: 0.47232107103869503
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 124.0
+Distance: 0.47232107103869503 Fitness: 0.47232107103869503
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.048979591836734726 0.9285714285714286 0.9949794291483852 0.14285714285714285]
+Strength: 105.0
+Distance: 0.47218639996692924 Fitness: 0.47218639996692924
+Tree 0:
+ (G((G(F(wasEvent(ep.C))) -> wasAction(co.z0)))
+     ((G(F(wasEvent(ep.C))) -> wasAction(co.z0))
+         (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+             wasEvent(ep.C))) wasAction(co.z0)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 93.0
+Distance: 0.47232107103869503 Fitness: 0.47232107103869503
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04081632653061218 1.0 0.9996527777777777 0.16666666666666666]
+Strength: 70.0
+Distance: 0.47232107103869503 Fitness: 0.47232107103869503
+Tree 0:
+ ((G(F(wasEvent(ep.C))) -> wasAction(co.z2))
+     (G(F(wasEvent(ep.C))) (F(wasEvent(ep.C))
+         wasEvent(ep.C))) wasAction(co.z2))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 120.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 60.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 148.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 112.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 59.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 97.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 54.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 75.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 49.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 75.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 50.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 76.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 56.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 74.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 52.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 78.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 54.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 83.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 63.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.0 0.9285714285714286 0.9947243271075689 0.25]
+Strength: 75.0
+Distance: 0.3007098261427727 Fitness: 0.3007098261427727
+Tree 0:
+ (F(!(wasEvent(ep.D))) (!(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+
+
+
+ PARETO FRONTS
+
+
+Pareto Front of Subpopulation 0
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (X((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.050000000000000044 0.0 0.050000000000000044 0.2]
+Strength: 61.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (G((wasEvent(ep.B) -> wasAction(co.z0)))
+     ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+         wasAction(co.z0)))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))
+Evaluated: true
+Fitness: [1.0 0.04591836734693877 0.0 0.050000000000000044 0.25]
+Strength: 58.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ ((wasEvent(ep.B) -> wasAction(co.z0)) wasEvent(ep.B)
+     wasAction(co.z0))

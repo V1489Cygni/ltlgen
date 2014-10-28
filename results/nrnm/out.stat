@@ -1,0 +1,2436 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 499.0
+Distance: 0.452995460322836 Fitness: 0.452995460322836
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 495.0
+Distance: 0.4636278283903629 Fitness: 0.4636278283903629
+Tree 0:
+ (F(!(wasAction(co.z2))) (!(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 409.0
+Distance: 0.48103822632760157 Fitness: 0.48103822632760157
+Tree 0:
+ (F(G(!(wasEvent(ep.C)))) (G(!(wasEvent(ep.C)))
+     (!(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9994082840236687 0.14285714285714285]
+Strength: 373.0
+Distance: 0.4822015726131778 Fitness: 0.4822015726131778
+Tree 0:
+ (G((wasAction(co.z2) -> X(!(wasEvent(ep.A)))))
+     ((wasAction(co.z2) -> X(!(wasEvent(ep.A))))
+         wasAction(co.z2) (X(!(wasEvent(ep.A))) (!(wasEvent(ep.A))
+         wasEvent(ep.A)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 305.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (F(G(!(wasEvent(ep.C)))) (G(!(wasEvent(ep.C)))
+     (!(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 302.0
+Distance: 0.48611111111111116 Fitness: 0.48611111111111116
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 289.0
+Distance: 0.49180327868852464 Fitness: 0.49180327868852464
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9997448979591836 0.16666666666666666]
+Strength: 223.0
+Distance: 0.4916203193294877 Fitness: 0.4916203193294877
+Tree 0:
+ ((wasAction(co.z2) -> X(!(wasAction(co.z2))))
+     wasAction(co.z2) (X(!(wasAction(co.z2)))
+     (!(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 279.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 284.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 262.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (F(!(wasAction(co.z2))) (!(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 266.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 243.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 225.0
+Distance: 0.49180327868852464 Fitness: 0.49180327868852464
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 247.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 256.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 233.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 191.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 244.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 228.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 223.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 215.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 221.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 234.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 216.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 259.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 217.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 221.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 207.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 234.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z0))) (G(wasAction(co.z0))
+     wasAction(co.z0)))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 221.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 221.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 218.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasEvent(ep.C)))) (G(F(wasEvent(ep.C)))
+     (F(wasEvent(ep.C)) wasEvent(ep.C))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 222.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 214.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 230.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 230.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 224.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 193.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 222.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 218.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 222.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 246.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 205.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 231.0
+Distance: 0.4827551953213321 Fitness: 0.4827551953213321
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 221.0
+Distance: 0.49180327868852464 Fitness: 0.49180327868852464
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+
+
+
+ PARETO FRONTS
+
+
+Pareto Front of Subpopulation 0
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasEvent(ep.D))) (G(wasEvent(ep.D))
+     wasEvent(ep.D)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 0.9285714285714286 0.9940511411665258 0.25]
+Strength: 231.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(wasAction(co.z2))) (G(wasAction(co.z2))
+     wasAction(co.z2)))
+Evaluated: true
+Fitness: [1.0 1.0 0.9926020408163265 0.2]
+Strength: 219.0
+Distance: 0.5 Fitness: 0.5
+Tree 0:
+ (!(G(F(wasAction(co.z2)))) (G(F(wasAction(co.z2)))
+     (F(wasAction(co.z2)) wasAction(co.z2))))
