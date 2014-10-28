@@ -35,9 +35,7 @@ public class LTLProblem extends GPProblem {
             try {
                 fitnesses[i] = (SingleFitness) c.newInstance();
                 fitnesses[i].setup(state, f.push(Integer.toString(i)));
-            } catch (InstantiationException e) {
-                state.output.fatal("Error while loading fitness function: " + e.getMessage());
-            } catch (IllegalAccessException e) {
+            } catch (InstantiationException | IllegalAccessException e) {
                 state.output.fatal("Error while loading fitness function: " + e.getMessage());
             }
         }

@@ -1,0 +1,35 @@
+Ideal individual not found.
+
+Front:
+G((wasEvent(ep.B) -> wasAction(co.z0)))
+Fitness: [1.0 1.0 0.050000000000000044 0.25]
+Strength: 67.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+
+Best individuals:
+G((wasEvent(ep.B) -> wasAction(co.z0)))
+Fitness: [1.0 1.0 0.050000000000000044 0.25]
+Strength: 67.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((wasEvent(ep.B) -> (wasEvent(ep.B) -> wasAction(co.z0))))
+Fitness: [1.0 1.0 0.0479591836734693 0.16666666666666666]
+Strength: 49.0
+Distance: 0.47999424333106305 Fitness: 29011.47999424333
+--------------------
+G(((wasEvent(ep.B) -> wasAction(co.z0)) -> wasAction(co.z0)))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 29893.5
+--------------------
+G(wasEvent(ep.B))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 29893.5
+--------------------
+G(wasAction(co.z0))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 29893.5
+--------------------

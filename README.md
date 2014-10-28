@@ -1,4 +1,4 @@
-gp
+ltlgen
 ==
 
-LTL-formulas generation using genetic programming.
+LTL-formulas generation for a Finite State Automaton using genetic programming (with ECJ).

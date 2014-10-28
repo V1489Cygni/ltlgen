@@ -14,7 +14,7 @@ breed = ec.multiobjective.spea2.SPEA2Breeder
 pop.subpop.0.size = 500
 breed.elite.0 =	100
 
-generations = 50
+generations = 100
 
 #
 # Pipeline
@@ -38,23 +38,14 @@ gp.koza.half.max-depth = 6
 
 pop.subpop.0.species.fitness = ec.multiobjective.spea2.SPEA2MultiObjectiveFitness
 multi.fitness.maximize = true
-multi.fitness.num-objectives = 6
+multi.fitness.num-objectives = 3
 
 eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
 eval.problem.fitness.0.threshold = 0.75
 
-eval.problem.fitness.1 = ltlgen.fitnesses.RandomFitness
-eval.problem.fitness.1.number = 20
+eval.problem.fitness.1 = ltlgen.fitnesses.ScenariosFitness
 
-eval.problem.fitness.2 = ltlgen.fitnesses.MutatedFitness
-eval.problem.fitness.2.number = 20
-
-eval.problem.fitness.3 = ltlgen.fitnesses.ScenariosFitness
-
-eval.problem.fitness.4 = ltlgen.fitnesses.MutatedScenariosFitness
-eval.problem.fitness.4.number = 20
-
-eval.problem.fitness.5 = ltlgen.fitnesses.SizeFitness
+eval.problem.fitness.2 = ltlgen.fitnesses.SizeFitness
 
 #
 # Structure
