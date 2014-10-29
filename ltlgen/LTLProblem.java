@@ -4,7 +4,7 @@ import ec.EvolutionState;
 import ec.Individual;
 import ec.gp.GPIndividual;
 import ec.gp.GPProblem;
-import ec.multiobjective.spea2.SPEA2MultiObjectiveFitness;
+import ec.multiobjective.MultiObjectiveFitness;
 import ec.util.Parameter;
 import ru.ifmo.random.RandomProvider;
 
@@ -31,9 +31,9 @@ public class LTLProblem extends GPProblem {
         fitnesses = new SingleFitness[state.parameters.getInt(new Parameter(new String[]{"multi", "fitness", "num-objectives"}), null)];
         Parameter f = base.push("fitness");
         for (int i = 0; i < fitnesses.length; i++) {
-            Class c = state.parameters.getClassForParameter(f.push(Integer.toString(i)), null, SingleFitness.class);
+            Class<? extends SingleFitness> c = state.parameters.getClassForParameter(f.push(Integer.toString(i)), null, SingleFitness.class);
             try {
-                fitnesses[i] = (SingleFitness) c.newInstance();
+                fitnesses[i] = c.newInstance();
                 fitnesses[i].setup(state, f.push(Integer.toString(i)));
             } catch (InstantiationException | IllegalAccessException e) {
                 state.output.fatal("Error while loading fitness function: " + e.getMessage());
@@ -65,9 +65,9 @@ public class LTLProblem extends GPProblem {
             LTLData input = (LTLData) this.input;
             GPIndividual individual = (GPIndividual) ind;
             individual.trees[0].child.eval(state, threadnum, input, stack, individual, this);
-            SPEA2MultiObjectiveFitness f = (SPEA2MultiObjectiveFitness) ind.fitness;
+            MultiObjectiveFitness f = (MultiObjectiveFitness) ind.fitness;
             String formula = "G(" + input.result + ")";
-            f.setObjectives(state, getFitness(formula, input.size));
+            f.setObjectives(state, getFitness(formula, input.complexity));
             ind.evaluated = true;
         }
     }

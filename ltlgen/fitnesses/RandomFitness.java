@@ -26,7 +26,7 @@ public class RandomFitness extends SingleFitness {
         random = new FST[state.parameters.getInt(base.push("number"), null)];
         for (int i = 0; i < random.length; i++) {
             try {
-                String cmd = "./generate-efsm -n " + stateNumber + " -e " + eventNumber + " -a " + actionNumber + " -m 0 -s 2 -v " + variableNumber;
+                String cmd = "./resources/generate-efsm -n " + stateNumber + " -e " + eventNumber + " -a " + actionNumber + " -m 0 -s 2 -v " + variableNumber;
                 Process p = Runtime.getRuntime().exec(cmd);
                 Scanner sc = new Scanner(p.getInputStream());
                 BufferedWriter out = new BufferedWriter(new FileWriter(new File("tmp.gv")));

@@ -4,7 +4,7 @@ import ec.EvolutionState;
 import ec.util.Parameter;
 import ltlgen.SingleFitness;
 
-public class SizeFitness extends SingleFitness {
+public class ComplexityFitness extends SingleFitness {
     @Override
     public void setup(EvolutionState state, Parameter base) {
         super.setup(state, base);

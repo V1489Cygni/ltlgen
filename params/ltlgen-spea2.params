@@ -1,0 +1,32 @@
+parent.0 = ltlgen-general.params
+parent.1 = spea2.params
+
+#
+# General
+#
+
+eval = ec.multiobjective.spea2.SPEA2Evaluator
+breed = ec.multiobjective.spea2.SPEA2Breeder
+
+breed.elite.0 =	50
+
+#
+# Pipeline
+#
+
+pop.subpop.0.species.pipe.num-sources = 2
+pop.subpop.0.species.pipe.source.0 = ec.gp.koza.CrossoverPipeline
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.0.source.0 = ec.multiobjective.spea2.SPEA2TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.1 = ec.multiobjective.spea2.SPEA2TournamentSelection
+pop.subpop.0.species.pipe.source.1 = ec.breed.ReproductionPipeline
+pop.subpop.0.species.pipe.source.1.prob = 0.1
+
+select.tournament.size = 2
+
+#
+# Fitness
+#
+
+pop.subpop.0.species.fitness = ec.multiobjective.spea2.SPEA2MultiObjectiveFitness
+multi.fitness.maximize = true

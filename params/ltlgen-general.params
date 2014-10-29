@@ -1,0 +1,53 @@
+parent.0 = koza.params
+
+#
+# General
+#
+
+eval.problem = ltlgen.LTLProblem
+eval.problem.data = ltlgen.LTLData
+
+#
+# Structure
+#
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+
+gp.fs.0.size = 10
+gp.fs.0.func.0 = ltlgen.formulas.And
+gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.1 = ltlgen.formulas.Or
+gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.2 = ltlgen.formulas.Implication
+gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.3 = ltlgen.formulas.Not
+gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.4 = ltlgen.formulas.U
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = ltlgen.formulas.R
+gp.fs.0.func.5.nc = nc2
+gp.fs.0.func.6 = ltlgen.formulas.X
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = ltlgen.formulas.F
+gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.8 = ltlgen.formulas.Event
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = ltlgen.formulas.Action
+gp.fs.0.func.9.nc = nc0
+
+#
+# Stats
+#
+
+stat = ec.multiobjective.MultiObjectiveStatistics
+stat.front = $output/front.stat
+stat.file = $output/out.stat
+
+stat.num-children = 1
+stat.child.0 = ltlgen.LTLStatistics
+stat.child.0.log = $output/log.stat
+stat.child.0.result = $output/result.stat
+stat.child.0.result-humans = $output/result-humans.stat
+stat.child.0.best-number = 50

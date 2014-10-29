@@ -1,0 +1,16 @@
+parent.0 = ltlgen-general.params
+parent.1 = nsga2.params
+
+#
+# General
+#
+
+eval = ec.multiobjective.nsga2.NSGA2Evaluator
+breed = ec.multiobjective.nsga2.NSGA2Breeder
+
+#
+# Fitness
+#
+
+pop.subpop.0.species.fitness = ec.multiobjective.nsga2.NSGA2MultiObjectiveFitness
+multi.fitness.maximize = true

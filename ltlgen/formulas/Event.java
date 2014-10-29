@@ -1,4 +1,4 @@
-package ltlgen.formula;
+package ltlgen.formulas;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -7,7 +7,7 @@ import ec.util.Code;
 import ltlgen.LTLData;
 import ltlgen.LTLProblem;
 
-public class Event extends ERC {
+public class Event extends ERC implements Verifiable {
     private int value;
 
     @Override
@@ -24,7 +24,7 @@ public class Event extends ERC {
     public void eval(EvolutionState state, int thread, GPData input, ADFStack stack, GPIndividual individual, Problem problem) {
         LTLData data = ((LTLData) (input));
         data.result = "wasEvent(ep." + (char) ('A' + value) + ")";
-        data.size = 1;
+        data.complexity = 1;
     }
 
     @Override
@@ -34,7 +34,12 @@ public class Event extends ERC {
 
     @Override
     public String toStringForHumans() {
-        return "wasEvent(ep." + (char) ('A' + value) + ")";
+        return toString();
+    }
+
+    @Override
+    public String toStringForVerifier() {
+        return toString();
     }
 
     @Override
