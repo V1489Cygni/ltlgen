@@ -19,10 +19,10 @@ public class Implication extends GPNode implements Verifiable {
         LTLData data = ((LTLData) (input));
         children[0].eval(state, thread, input, stack, individual, problem);
         String left = data.result;
-        int size = data.complexity;
+        int complexity = data.complexity;
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "(!(" + left + ") or " + data.result + ")";
-        data.complexity += size + 1;
+        data.complexity += complexity + 1;
     }
 
     @Override

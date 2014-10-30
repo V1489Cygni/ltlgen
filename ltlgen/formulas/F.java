@@ -19,7 +19,7 @@ public class F extends GPNode implements Verifiable {
         LTLData data = ((LTLData) (input));
         children[0].eval(state, thread, input, stack, individual, problem);
         data.result = "F(" + data.result + ")";
-        data.complexity += 3;
+        data.complexity += 2;
     }
 
     @Override

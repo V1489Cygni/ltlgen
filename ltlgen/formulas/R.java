@@ -19,10 +19,10 @@ public class R extends GPNode implements Verifiable {
         LTLData data = ((LTLData) (input));
         children[0].eval(state, thread, input, stack, individual, problem);
         String left = data.result;
-        int size = data.complexity;
+        int complexity = data.complexity;
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "R(" + left + ", " + data.result + ")";
-        data.complexity += size + 4;
+        data.complexity += complexity + 4;
     }
 
     @Override

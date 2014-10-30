@@ -4,8 +4,8 @@ parent.0 = ltlgen-spea2.params
 # General
 #
 
-pop.subpop.0.size = 100
-generations = 20
+pop.subpop.0.size = 500
+generations = 100
 
 #
 # Fitness
@@ -17,17 +17,18 @@ eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
 eval.problem.fitness.0.threshold = 0.75
 
 eval.problem.fitness.1 = ltlgen.fitnesses.RandomFitness
-eval.problem.fitness.1.number = 10
+eval.problem.fitness.1.number = 50
 
 eval.problem.fitness.2 = ltlgen.fitnesses.MutatedFitness
-eval.problem.fitness.2.number = 10
+eval.problem.fitness.2.number = 50
 
 eval.problem.fitness.3 = ltlgen.fitnesses.ScenariosFitness
 
 eval.problem.fitness.4 = ltlgen.fitnesses.MutatedScenariosFitness
-eval.problem.fitness.4.number = 10
+eval.problem.fitness.4.number = 50
 
 eval.problem.fitness.5 = ltlgen.fitnesses.ComplexityFitness
+eval.problem.fitness.5.threshold = 0.04
 
 #
 # Automaton

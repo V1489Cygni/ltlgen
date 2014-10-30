@@ -34,7 +34,7 @@ public class LTLStatistics extends Statistics {
         startTime = System.currentTimeMillis();
     }
 
-    public String individualToString(boolean forHumans, GPIndividual individual) {
+    private String individualToString(boolean forHumans, GPIndividual individual) {
         if (forHumans) {
             return "G(" + individual.trees[0].child.toStringForHumans() + ")\n" + individual.fitness.fitnessToStringForHumans();
         } else {

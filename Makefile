@@ -2,15 +2,17 @@ JAVAC = javac ${JAVACFLAGS}
 
 JAVACFLAGS = ${FLAGS} ${RESOURCES}
 FLAGS =
+
+JAVA = java ${JAVAFLAGS}
+
+JAVAFLAGS = ${JFLAGS} ${RESOURCES}
+JFLAGS =
+
 RESOURCES = -cp resources/ecj.22.jar:resources/verifier.jar:.
 
 DIRS = ltlgen/*.java \
 	   ltlgen/fitnesses/*.java \
 	   ltlgen/formulas/*.java
-
-JAVA = java ${JAVAFLAGS}
-JAVAFLAGS = ${JFLAGS} ${RESOURCES}
-JFLAGS =
 
 all:
 	${JAVAC} ${DIRS}

@@ -15,7 +15,7 @@ public class LTLProblem extends GPProblem {
     public static int EVENT_NUMBER;
     public static int ACTION_NUMBER;
     private static SingleFitness[] fitnesses;
-    private static Map<String, EvaluationResult> results = new HashMap<>();
+    private static final Map<String, EvaluationResult> results = new HashMap<>();
 
     @Override
     public void setup(final EvolutionState state, Parameter base) {
@@ -31,9 +31,9 @@ public class LTLProblem extends GPProblem {
         fitnesses = new SingleFitness[state.parameters.getInt(new Parameter(new String[]{"multi", "fitness", "num-objectives"}), null)];
         Parameter f = base.push("fitness");
         for (int i = 0; i < fitnesses.length; i++) {
-            Class<? extends SingleFitness> c = state.parameters.getClassForParameter(f.push(Integer.toString(i)), null, SingleFitness.class);
+            Class c = state.parameters.getClassForParameter(f.push(Integer.toString(i)), null, SingleFitness.class);
             try {
-                fitnesses[i] = c.newInstance();
+                fitnesses[i] = (SingleFitness) c.newInstance();
                 fitnesses[i].setup(state, f.push(Integer.toString(i)));
             } catch (InstantiationException | IllegalAccessException e) {
                 state.output.fatal("Error while loading fitness function: " + e.getMessage());
@@ -73,7 +73,7 @@ public class LTLProblem extends GPProblem {
     }
 
     private static class EvaluationResult {
-        private double[] result;
+        private final double[] result;
 
         public EvaluationResult(double[] result) {
             this.result = result;

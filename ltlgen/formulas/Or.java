@@ -23,11 +23,18 @@ public class Or extends GPNode implements Verifiable {
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "(" + left + " or " + data.result + ")";
         data.complexity += size + 1;
+        if (left.charAt(0) == '!') {
+            data.complexity--;
+        }
     }
 
     @Override
     public String toStringForHumans() {
-        return "(" + children[0].toStringForHumans() + " or " + children[1].toStringForHumans() + ")";
+        String left = children[0].toStringForHumans();
+        if (left.charAt(0) == '!') {
+            return "(" + left.substring(1) + " -> " + children[1].toStringForHumans() + ")";
+        }
+        return "(" + left + " or " + children[1].toStringForHumans() + ")";
     }
 
     @Override

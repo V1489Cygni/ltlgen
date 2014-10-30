@@ -8,7 +8,7 @@ parent.1 = spea2.params
 eval = ec.multiobjective.spea2.SPEA2Evaluator
 breed = ec.multiobjective.spea2.SPEA2Breeder
 
-breed.elite.0 =	50
+breed.elite.0 =	100
 
 #
 # Pipeline
