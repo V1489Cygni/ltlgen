@@ -1,7 +1,5 @@
 package ltlgen.fitnesses;
 
-import ltlgen.SingleFitness;
-
 public class ComplexityFitness extends SingleFitness {
     @Override
     public double getFitness(String formula, int size) {

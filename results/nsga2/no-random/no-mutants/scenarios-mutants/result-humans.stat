@@ -1,0 +1,47 @@
+Ideal individual not found.
+
+Time taken: 0 days, 0 hours, 0 minutes, 47 seconds.
+
+Front:
+G((X(wasEvent(ep.A)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0 0.9991161649428383]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0 0.09940828402366864]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G(F((wasAction(co.z0) -> wasAction(co.z1))))
+Fitness: [1.0 0.16666666666666666 0.9285714285714286 0.9908609015027596]
+Rank: 0
+Sparsity: 0.9285714285714286
+--------------------
+G(F(!(wasAction(co.z0))))
+Fitness: [1.0 0.2 0.9285714285714286 0.9905547790537801]
+Rank: 0
+Sparsity: 0.8911464950301115
+--------------------
+
+Best individuals:
+G((X(wasEvent(ep.A)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0 0.9991161649428383]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0 0.09940828402366864]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G(F((wasAction(co.z0) -> wasAction(co.z1))))
+Fitness: [1.0 0.16666666666666666 0.9285714285714286 0.9908609015027596]
+Rank: 0
+Sparsity: 0.9285714285714286
+--------------------
+G(F(!(wasAction(co.z0))))
+Fitness: [1.0 0.2 0.9285714285714286 0.9905547790537801]
+Rank: 0
+Sparsity: 0.8911464950301115
+--------------------

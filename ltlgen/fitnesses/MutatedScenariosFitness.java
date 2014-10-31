@@ -2,7 +2,6 @@ package ltlgen.fitnesses;
 
 import ec.EvolutionState;
 import ec.util.Parameter;
-import ltlgen.SingleFitness;
 import ru.ifmo.ctddev.genetic.transducer.algorithm.FST;
 import ru.ifmo.ctddev.tools.Verifier;
 

@@ -1,0 +1,42 @@
+parent.0 = ltlgen-nsga2.params
+
+#
+# General
+#
+
+pop.subpop.0.size = 500
+generations = 100
+
+#
+# Fitness
+#
+
+multi.fitness.num-objectives = 4
+
+eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
+eval.problem.fitness.0.threshold = 0.75
+
+eval.problem.fitness.1 = ltlgen.fitnesses.ComplexityFitness
+eval.problem.fitness.1.threshold = 0.04
+
+eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
+
+eval.problem.fitness.3 = ltlgen.fitnesses.MutatedScenariosFitness
+eval.problem.fitness.3.number = 50
+
+#
+# Automaton
+#
+
+automaton.file = lift-efsm.gv
+automaton.state-number = 6
+automaton.event-number = 5
+automaton.action-number = 3
+automaton.variable-number = 0
+
+#
+# Scenarios
+#
+
+scenarios.file = lift-scenarios-efsm.gv
+scenarios.state-number = 6

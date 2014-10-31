@@ -34,12 +34,18 @@ public class LTLStatistics extends Statistics {
         startTime = System.currentTimeMillis();
     }
 
-    private String individualToString(boolean forHumans, GPIndividual individual) {
+    private String individualToString(boolean forHumans, GPIndividual individual, Set<String> sh) {
+        String s;
         if (forHumans) {
-            return "G(" + individual.trees[0].child.toStringForHumans() + ")\n" + individual.fitness.fitnessToStringForHumans();
+            s = "G(" + individual.trees[0].child.toStringForHumans() + ")\n";
         } else {
-            return "G(" + ((Verifiable) individual.trees[0].child).toStringForVerifier() + ")\n" + individual.fitness.fitnessToStringForHumans();
+            s = "G(" + ((Verifiable) individual.trees[0].child).toStringForVerifier() + ")\n";
         }
+        if (sh.contains(s)) {
+            return "";
+        }
+        sh.add(s);
+        return s + individual.fitness.fitnessToStringForHumans();
     }
 
     @Override
@@ -53,7 +59,7 @@ public class LTLStatistics extends Statistics {
                 best = individuals[i];
             }
         }
-        state.output.println("Best individual: " + individualToString(false, (GPIndividual) best), logFile);
+        state.output.println("Best individual: " + individualToString(false, (GPIndividual) best, new HashSet<>()), logFile);
         state.output.println("--------------------", logFile);
     }
 
@@ -66,15 +72,18 @@ public class LTLStatistics extends Statistics {
     private void printFinal(EvolutionState state, int result, boolean forHumans, int fileId) {
         if (forHumans) {
             state.output.println("Ideal individual " + (result == EvolutionState.R_SUCCESS ? "" : "not ") + "found.\n", fileId);
-            state.output.println("Time taken: " + (System.currentTimeMillis() - startTime) + " ms.\n", fileId);
+            long seconds = (System.currentTimeMillis() - startTime) / 1000;
+            long minutes = seconds / 60, hours = minutes / 60, days = hours / 24;
+            String d = days + " days, " + (hours % 24) + " hours, " + (minutes % 60) + " minutes, " + (seconds % 60) + " seconds.";
+            state.output.println("Time taken: " + d + "\n", fileId);
         }
         state.output.println("Front:", fileId);
         ArrayList<Individual> front = new ArrayList<>();
         Set<String> shown = new HashSet<>();
         MultiObjectiveFitness.partitionIntoParetoFront(state.population.subpops[0].individuals, front, null);
         for (Individual individual : front) {
-            String s = individualToString(forHumans, (GPIndividual) individual);
-            if (!shown.contains(s)) {
+            String s = individualToString(forHumans, (GPIndividual) individual, shown);
+            if (!s.equals("")) {
                 state.output.println(s, fileId);
                 state.output.println("--------------------", fileId);
                 shown.add(s);
@@ -90,8 +99,8 @@ public class LTLStatistics extends Statistics {
             if (count >= bestNumber) {
                 break;
             }
-            String s = individualToString(false, (GPIndividual) individual);
-            if (!shown.contains(s)) {
+            String s = individualToString(forHumans, (GPIndividual) individual, shown);
+            if (!s.equals("")) {
                 state.output.println(s, fileId);
                 state.output.println("--------------------", fileId);
                 shown.add(s);

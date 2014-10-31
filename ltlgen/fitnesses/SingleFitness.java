@@ -1,4 +1,4 @@
-package ltlgen;
+package ltlgen.fitnesses;
 
 import ec.EvolutionState;
 import ec.Setup;

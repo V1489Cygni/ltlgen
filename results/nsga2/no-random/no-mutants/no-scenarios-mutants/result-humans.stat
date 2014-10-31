@@ -1,0 +1,97 @@
+Ideal individual not found.
+
+Time taken: 0 days, 0 hours, 0 minutes, 7 seconds.
+
+Front:
+G((X(wasEvent(ep.C)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((X(wasEvent(ep.A)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G(F(!(wasAction(co.z2))))
+Fitness: [1.0 0.2 0.9285714285714286]
+Rank: 0
+Sparsity: 0.9285714285714286
+--------------------
+G((X(wasAction(co.z2)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((X(wasEvent(ep.A)) -> !(wasEvent(ep.C))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((X(wasAction(co.z2)) -> !(wasEvent(ep.C))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((wasEvent(ep.E) -> wasAction(co.z1)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((wasAction(co.z1) -> wasEvent(ep.E)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+
+Best individuals:
+G((X(wasEvent(ep.C)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G((X(wasEvent(ep.A)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: Infinity
+--------------------
+G(F(!(wasAction(co.z2))))
+Fitness: [1.0 0.2 0.9285714285714286]
+Rank: 0
+Sparsity: 0.9285714285714286
+--------------------
+G((X(wasAction(co.z2)) -> !(wasAction(co.z2))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((X(wasEvent(ep.A)) -> !(wasEvent(ep.C))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((X(wasAction(co.z2)) -> !(wasEvent(ep.C))))
+Fitness: [1.0 0.14285714285714285 1.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((wasEvent(ep.E) -> wasAction(co.z1)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: 0.0
+--------------------
+G((wasAction(co.z1) -> wasEvent(ep.E)))
+Fitness: [1.0 0.25 0.0]
+Rank: 0
+Sparsity: 0.0
+--------------------

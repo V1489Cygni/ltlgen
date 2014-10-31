@@ -1,0 +1,47 @@
+Ideal individual not found.
+
+Time taken: 0 days, 0 hours, 2 minutes, 11 seconds.
+
+Front:
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0 0.9672]
+Strength: 78.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+
+Best individuals:
+G((wasAction(co.z2) -> wasEvent(ep.C)))
+Fitness: [1.0 0.25 0.0 0.9672]
+Strength: 78.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((wasAction(co.z2) -> (wasAction(co.z2) -> wasEvent(ep.C))))
+Fitness: [1.0 0.16666666666666666 0.0 0.9671111111111111]
+Strength: 55.0
+Distance: 0.5 Fitness: 32916.5
+--------------------
+G(wasEvent(ep.C))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 34181.5
+--------------------
+G(((wasAction(co.z2) -> wasEvent(ep.C)) -> wasEvent(ep.C)))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 34181.5
+--------------------
+G(wasAction(co.z2))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 34181.5
+--------------------
+G((wasAction(co.z2) -> wasAction(co.z2)))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 34181.5
+--------------------
+G((wasEvent(ep.C) -> wasEvent(ep.C)))
+Fitness: [0.0 0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 34181.5
+--------------------

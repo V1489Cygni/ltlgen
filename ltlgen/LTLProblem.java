@@ -6,6 +6,7 @@ import ec.gp.GPIndividual;
 import ec.gp.GPProblem;
 import ec.multiobjective.MultiObjectiveFitness;
 import ec.util.Parameter;
+import ltlgen.fitnesses.SingleFitness;
 import ru.ifmo.random.RandomProvider;
 
 import java.util.HashMap;

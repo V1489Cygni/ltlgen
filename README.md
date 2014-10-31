@@ -1,7 +1,7 @@
 ltlgen
 ==
 
-LTL-formulas generation for a Finite State Automaton using genetic programming (with ECJ).
+LTL formulas generation for a Finite State Automaton using genetic programming (with ECJ).
 
 Use "make" to compile.
 Use "make run" to run.
