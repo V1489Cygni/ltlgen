@@ -23,7 +23,7 @@ c-lib
 # Output
 output
 
-# Auromaton files
+# Automaton files
 *.gv
 
 # Temporary files

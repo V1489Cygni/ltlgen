@@ -65,8 +65,8 @@ public class LTLProblem extends GPProblem {
         }
         double[] result = new double[fitnesses.length];
         boolean r = true;
-        for (int i = 0; i < filters.length; i++) {
-            if (!filters[i].accepts(formula, size)) {
+        for (Filter filter : filters) {
+            if (!filter.accepts(formula, size)) {
                 r = false;
                 break;
             }
