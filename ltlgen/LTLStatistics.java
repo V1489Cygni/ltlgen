@@ -51,6 +51,7 @@ public class LTLStatistics extends Statistics {
     @Override
     public void postEvaluationStatistics(final EvolutionState state) {
         super.postEvaluationStatistics(state);
+        System.out.println("Cache usage: found: " + LTLProblem.found + ", size: " + LTLProblem.results.size());
         state.output.println("Generation " + state.generation, logFile);
         Individual[] individuals = state.population.subpops[0].individuals;
         Individual best = individuals[0];

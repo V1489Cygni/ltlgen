@@ -32,7 +32,7 @@ public class R extends GPNode implements Verifiable {
 
     @Override
     public String toStringForVerifier() {
-        return "R(" + ((Verifiable) children[0]).toStringForVerifier() + ")";
+        return "R(" + ((Verifiable) children[0]).toStringForVerifier() + ", " + ((Verifiable) children[1]).toStringForVerifier() + ")";
     }
 
     @Override

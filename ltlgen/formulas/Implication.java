@@ -27,7 +27,12 @@ public class Implication extends GPNode implements Verifiable {
 
     @Override
     public String toStringForHumans() {
-        return "(" + children[0].toStringForHumans() + " -> " + children[1].toStringForHumans() + ")";
+        String left = children[0].toStringForHumans();
+        if (left.charAt(0) == '!') {
+            return "(" + left.substring(2, left.length() - 1) + " or " + children[1].toStringForHumans() + ")";
+        } else {
+            return "(" + children[0].toStringForHumans() + " -> " + children[1].toStringForHumans() + ")";
+        }
     }
 
     @Override

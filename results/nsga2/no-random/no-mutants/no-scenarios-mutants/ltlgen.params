@@ -1,11 +1,11 @@
-parent.0 = ltlgen-nsga2.params
+parent.0 = ../../../../../params/ltlgen-nsga2.params
 
 #
 # General
 #
 
 pop.subpop.0.size = 500
-generations = 100
+generations = 50
 
 #
 # Fitness
@@ -20,6 +20,12 @@ eval.problem.fitness.1 = ltlgen.fitnesses.ComplexityFitness
 eval.problem.fitness.1.threshold = 0.04
 
 eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
+
+#
+# Filters
+#
+
+eval.problem.filters.number = 0
 
 #
 # Automaton
@@ -37,3 +43,14 @@ automaton.variable-number = 0
 
 scenarios.file = lift-scenarios-efsm.gv
 scenarios.state-number = 6
+
+#
+# Stats
+#
+
+stat.front = front.stat
+stat.file = /dev/null
+
+stat.child.0.log = log.stat
+stat.child.0.result = result.stat
+stat.child.0.result-humans = result-humans.stat

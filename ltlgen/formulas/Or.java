@@ -30,11 +30,14 @@ public class Or extends GPNode implements Verifiable {
 
     @Override
     public String toStringForHumans() {
-        String left = children[0].toStringForHumans();
+        String left = children[0].toStringForHumans(), right = children[1].toStringForHumans();
         if (left.charAt(0) == '!') {
-            return "(" + left.substring(1) + " -> " + children[1].toStringForHumans() + ")";
+            return "(" + left.substring(2, left.length() - 1) + " -> " + right + ")";
+        } else if (right.charAt(0) == '!') {
+            return "(" + right.substring(2, right.length() - 1) + " -> " + left + ")";
+        } else {
+            return "(" + left + " or " + children[1].toStringForHumans() + ")";
         }
-        return "(" + left + " or " + children[1].toStringForHumans() + ")";
     }
 
     @Override

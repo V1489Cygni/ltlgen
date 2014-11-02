@@ -8,6 +8,86 @@ eval.problem = ltlgen.LTLProblem
 eval.problem.data = ltlgen.LTLData
 
 #
+# Types
+#
+
+gp.type.a.size = 4
+gp.type.a.0.name = not
+gp.type.a.1.name = x
+gp.type.a.2.name = f
+gp.type.a.3.name = others
+
+gp.type.s.size = 5
+
+gp.type.s.0.name = xfo
+gp.type.s.0.size = 3
+gp.type.s.0.member.0 = x
+gp.type.s.0.member.1 = f
+gp.type.s.0.member.2 = others
+
+gp.type.s.1.name = nxo
+gp.type.s.1.size = 3
+gp.type.s.1.member.0 = not
+gp.type.s.1.member.1 = f
+gp.type.s.1.member.2 = others
+
+gp.type.s.2.name = no
+gp.type.s.2.size = 2
+gp.type.s.2.member.0 = not
+gp.type.s.2.member.1 = others
+
+gp.type.s.3.name = all
+gp.type.s.3.size = 4
+gp.type.s.3.member.0 = not
+gp.type.s.3.member.1 = x
+gp.type.s.3.member.2 = f
+gp.type.s.3.member.3 = others
+
+gp.type.s.4.name = nfo
+gp.type.s.4.size = 3
+gp.type.s.4.member.0 = not
+gp.type.s.4.member.1 = f
+gp.type.s.4.member.2 = others
+
+gp.tc.size = 1
+gp.tc.0 = ec.gp.GPTreeConstraints
+gp.tc.0.name = tc0
+gp.tc.0.fset = f0
+gp.tc.0.returns = nfo
+
+gp.nc.size = 5
+
+gp.nc.0 = ec.gp.GPNodeConstraints
+gp.nc.0.name = not-type
+gp.nc.0.returns = not
+gp.nc.0.size = 1
+gp.nc.0.child.0 = xfo
+
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = x-type
+gp.nc.1.returns = x
+gp.nc.1.size = 1
+gp.nc.1.child.0 = nxo
+
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = f-type
+gp.nc.2.returns = f
+gp.nc.2.size = 1
+gp.nc.2.child.0 = no
+
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = oth0
+gp.nc.3.returns = others
+gp.nc.3.size = 0
+
+gp.nc.4 = ec.gp.GPNodeConstraints
+gp.nc.4.name = oth2
+gp.nc.4.returns = others
+gp.nc.4.size = 2
+gp.nc.4.child.0 = all
+gp.nc.4.child.1 = all
+
+#
 # Structure
 #
 
@@ -17,25 +97,25 @@ gp.fs.0.name = f0
 
 gp.fs.0.size = 10
 gp.fs.0.func.0 = ltlgen.formulas.And
-gp.fs.0.func.0.nc = nc2
+gp.fs.0.func.0.nc = oth2
 gp.fs.0.func.1 = ltlgen.formulas.Or
-gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.1.nc = oth2
 gp.fs.0.func.2 = ltlgen.formulas.Implication
-gp.fs.0.func.2.nc = nc2
+gp.fs.0.func.2.nc = oth2
 gp.fs.0.func.3 = ltlgen.formulas.Not
-gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.3.nc = not-type
 gp.fs.0.func.4 = ltlgen.formulas.U
-gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.4.nc = oth2
 gp.fs.0.func.5 = ltlgen.formulas.R
-gp.fs.0.func.5.nc = nc2
+gp.fs.0.func.5.nc = oth2
 gp.fs.0.func.6 = ltlgen.formulas.X
-gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.6.nc = x-type
 gp.fs.0.func.7 = ltlgen.formulas.F
-gp.fs.0.func.7.nc = nc1
+gp.fs.0.func.7.nc = f-type
 gp.fs.0.func.8 = ltlgen.formulas.Event
-gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.8.nc = oth0
 gp.fs.0.func.9 = ltlgen.formulas.Action
-gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.9.nc = oth0
 
 #
 # Stats

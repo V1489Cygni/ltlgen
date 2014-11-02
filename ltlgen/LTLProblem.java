@@ -6,6 +6,7 @@ import ec.gp.GPIndividual;
 import ec.gp.GPProblem;
 import ec.multiobjective.MultiObjectiveFitness;
 import ec.util.Parameter;
+import ltlgen.filters.Filter;
 import ltlgen.fitnesses.SingleFitness;
 import ru.ifmo.random.RandomProvider;
 
@@ -13,10 +14,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LTLProblem extends GPProblem {
+    public static final Map<String, EvaluationResult> results = new HashMap<>();
     public static int EVENT_NUMBER;
     public static int ACTION_NUMBER;
+    public static int found;
+    private static Filter[] filters;
     private static SingleFitness[] fitnesses;
-    private static final Map<String, EvaluationResult> results = new HashMap<>();
 
     @Override
     public void setup(final EvolutionState state, Parameter base) {
@@ -29,6 +32,19 @@ public class LTLProblem extends GPProblem {
         Parameter a = new Parameter("automaton");
         EVENT_NUMBER = state.parameters.getInt(a.push("event-number"), null);
         ACTION_NUMBER = state.parameters.getInt(a.push("action-number"), null);
+
+        Parameter ft = base.push("filters");
+        filters = new Filter[state.parameters.getInt(ft.push("number"), null)];
+        for (int i = 0; i < filters.length; i++) {
+            Class c = state.parameters.getClassForParameter(ft.push(Integer.toString(i)), null, Filter.class);
+            try {
+                filters[i] = (Filter) c.newInstance();
+                filters[i].setup(state, ft.push(Integer.toString(i)));
+            } catch (InstantiationException | IllegalAccessException e) {
+                e.printStackTrace();
+            }
+        }
+
         fitnesses = new SingleFitness[state.parameters.getInt(new Parameter(new String[]{"multi", "fitness", "num-objectives"}), null)];
         Parameter f = base.push("fitness");
         for (int i = 0; i < fitnesses.length; i++) {
@@ -44,16 +60,26 @@ public class LTLProblem extends GPProblem {
 
     private double[] getFitness(String formula, int size) {
         if (results.containsKey(formula)) {
+            found++;
             return results.get(formula).result;
         }
         double[] result = new double[fitnesses.length];
-        for (int i = 0; i < result.length; i++) {
-            result[i] = fitnesses[i].getFitness(formula, size);
-            if (result[i] == -1) {
-                for (int j = 0; j <= i; j++) {
-                    result[j] = 0;
-                }
+        boolean r = true;
+        for (int i = 0; i < filters.length; i++) {
+            if (!filters[i].accepts(formula, size)) {
+                r = false;
                 break;
+            }
+        }
+        if (r) {
+            for (int i = 0; i < result.length; i++) {
+                result[i] = fitnesses[i].getFitness(formula, size);
+                if (result[i] == -1) {
+                    for (int j = 0; j <= i; j++) {
+                        result[j] = 0;
+                    }
+                    break;
+                }
             }
         }
         results.put(formula, new EvaluationResult(result));
