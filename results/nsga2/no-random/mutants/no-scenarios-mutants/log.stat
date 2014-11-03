@@ -1,300 +1,300 @@
 Generation 0
-Best individual: G((!(wasEvent(ep.E)) or wasAction(co.z1)))
-Fitness: [1.0 0.25 0.0 0.025000000000000022]
+Best individual: G((!(X(wasEvent(ep.E))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 0.0 0.027027027027026973]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 1
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(X(wasEvent(ep.E))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 0.0 0.027027027027026973]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 2
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(wasEvent(ep.C)) or !(X(wasEvent(ep.B)))))
+Fitness: [0.14285714285714285 1.0 1.0 0.05184776613348052]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 3
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(wasEvent(ep.C)) or !(X(wasEvent(ep.B)))))
+Fitness: [0.14285714285714285 1.0 1.0 0.05184776613348052]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 4
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(wasEvent(ep.C)) or !(X(wasEvent(ep.B)))))
+Fitness: [0.14285714285714285 1.0 1.0 0.05184776613348052]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 5
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(X(wasEvent(ep.A))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10038610038610041]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 6
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(F(wasEvent(ep.E))) or !(wasEvent(ep.C))))
+Fitness: [0.1 1.0 1.0 0.17539988968560405]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 7
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(F(wasEvent(ep.B))) or (!(F(wasAction(co.z0))) or (!(!(X(wasEvent(ep.B)))) or !(wasEvent(ep.C))))))
+Fitness: [0.045454545454545456 1.0 1.0 0.18036403750689478]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 8
-Best individual: G(!((F(R(wasAction(co.z1), wasEvent(ep.E))) and wasEvent(ep.C))))
-Fitness: [1.0 0.08333333333333333 1.0 0.24380668934240357]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 9
-Best individual: G(!((F(R(wasAction(co.z1), wasEvent(ep.E))) and wasEvent(ep.C))))
-Fitness: [1.0 0.08333333333333333 1.0 0.24380668934240357]
+Best individual: G((!(F(wasEvent(ep.B))) or !(wasEvent(ep.C))))
+Fitness: [0.1 1.0 0.9285714285714286 0.17705460562603403]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 10
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G(((!((wasAction(co.z0) and wasEvent(ep.E))) or X(wasAction(co.z1))) and (!(F(wasEvent(ep.B))) or !(wasEvent(ep.C)))))
+Fitness: [0.05555555555555555 1.0 0.9285714285714286 0.20408163265306112]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 11
-Best individual: G(!((F(R(wasAction(co.z1), wasEvent(ep.E))) and wasEvent(ep.C))))
-Fitness: [1.0 0.08333333333333333 1.0 0.24380668934240357]
+Best individual: G(((!((wasAction(co.z0) and wasEvent(ep.E))) or X(wasEvent(ep.B))) and (!(F(wasEvent(ep.B))) or !(wasEvent(ep.C)))))
+Fitness: [0.05555555555555555 1.0 0.9285714285714286 0.20408163265306112]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 12
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(F(wasEvent(ep.B))) or !(wasEvent(ep.C))))
+Fitness: [0.1 1.0 0.9285714285714286 0.17705460562603403]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 13
-Best individual: G(!((F(R(wasAction(co.z1), wasEvent(ep.E))) and wasEvent(ep.C))))
-Fitness: [1.0 0.08333333333333333 1.0 0.24380668934240357]
+Best individual: G((!(X(wasEvent(ep.A))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10038610038610041]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 14
-Best individual: G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286 0.04948979591836733]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 15
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasEvent(ep.E))) and (!(F(wasEvent(ep.B))) or !(wasEvent(ep.C)))))
+Fitness: [0.047619047619047616 1.0 0.8571428571428572 0.39719311147882574]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 16
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 17
-Best individual: G(!((F((F(R((!(wasEvent(ep.C)) or wasAction(co.z1)), wasEvent(ep.E))) and wasEvent(ep.C))) and wasEvent(ep.C))))
-Fitness: [1.0 0.05555555555555555 1.0 0.25858843537414977]
+Best individual: G((!(wasAction(co.z2)) or !(X(wasEvent(ep.C)))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 18
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 19
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 20
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(wasAction(co.z2)) or !(F(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.8571428571428572 0.18201875344732488]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 21
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.2347245204388062]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 22
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G((!(wasAction(co.z2)) or !(F(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.8571428571428572 0.18201875344732488]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 23
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G(((!(X(X(wasEvent(ep.A)))) or F(wasEvent(ep.E))) and (!(X(X(wasEvent(ep.A)))) or !(wasEvent(ep.C)))))
+Fitness: [0.045454545454545456 1.0 0.8571428571428572 0.40220322363179517]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 24
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.A))) or F(wasEvent(ep.E))))
+Fitness: [0.09090909090909091 1.0 0.8571428571428572 0.27920267205981486]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 25
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G(((!(X(X(wasEvent(ep.A)))) or F(wasEvent(ep.E))) and (!(X(X(wasEvent(ep.A)))) or !(wasEvent(ep.C)))))
+Fitness: [0.045454545454545456 1.0 0.8571428571428572 0.40220322363179517]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 26
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(F(wasEvent(ep.E))) or !(wasEvent(ep.C)))))
+Fitness: [0.047619047619047616 1.0 1.0 0.3610345038916467]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 27
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 28
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(X(wasEvent(ep.A)))) or F(wasEvent(ep.E))))
+Fitness: [0.07692307692307693 1.0 0.8571428571428572 0.2841668198811057]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 29
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 30
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasEvent(ep.A)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.8571428571428572 0.4545221241649814]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 31
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 32
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 33
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 34
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((wasEvent(ep.E) or (!(X(X(wasEvent(ep.A)))) or F(wasEvent(ep.E)))))
+Fitness: [0.06666666666666667 1.0 0.8571428571428572 0.29233314947600664]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 35
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 36
-Best individual: G((!(F((F(R((!(wasEvent(ep.C)) or wasAction(co.z1)), wasEvent(ep.E))) and wasEvent(ep.C)))) or wasAction(co.z2)))
-Fitness: [1.0 0.058823529411764705 1.0 0.25887188208616785]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 37
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 38
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(wasAction(co.z2)) or !(X(wasEvent(ep.C)))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 39
-Best individual: G((!(F((F(R((!(wasEvent(ep.C)) or wasAction(co.z1)), wasEvent(ep.E))) and wasEvent(ep.C)))) or wasAction(co.z2)))
-Fitness: [1.0 0.058823529411764705 1.0 0.25887188208616785]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 40
-Best individual: G((!(F((F(R((!(wasEvent(ep.C)) or wasAction(co.z1)), wasEvent(ep.E))) and wasEvent(ep.C)))) or wasAction(co.z2)))
-Fitness: [1.0 0.058823529411764705 1.0 0.25887188208616785]
+Best individual: G((!(X(X(wasEvent(ep.C)))) or !(wasEvent(ep.C))))
+Fitness: [0.1111111111111111 1.0 1.0 0.1825703254274682]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 41
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 42
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.A))) or F(wasEvent(ep.E))))
+Fitness: [0.09090909090909091 1.0 0.8571428571428572 0.27920267205981486]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 43
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 44
-Best individual: G((!(wasEvent(ep.C)) or wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0 0.07040816326530608]
+Best individual: G((!(X(wasEvent(ep.C))) or !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0 0.10369553226696093]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 45
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 46
-Best individual: G(!((F(wasAction(co.z0)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 0.8571428571428572 0.28854875283446724]
+Best individual: G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.5714285714285714 0.12296607832322104]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 47
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.2347245204388062]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 48
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------
 Generation 49
-Best individual: G(!((F(wasAction(co.z1)) and wasEvent(ep.C))))
-Fitness: [1.0 0.14285714285714285 1.0 0.2572420634920636]
+Best individual: G(((!(X(wasEvent(ep.A))) or F(wasAction(co.z0))) and (!(X(X(wasAction(co.z0)))) or F(wasEvent(ep.E)))))
+Fitness: [0.041666666666666664 1.0 0.9285714285714286 0.4768301464730036]
 Rank: 0
 Sparsity: Infinity
 --------------------

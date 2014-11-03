@@ -18,7 +18,7 @@ public class CorrectnessFitness extends SingleFitness {
     }
 
     @Override
-    public double getFitness(String formula, int size) {
+    public double getFitness(String formula, int complexity) {
         double result = Verifier.getVerifiedTransitionsRatio(automaton, formula);
         return result < threshold ? -1 : result;
     }

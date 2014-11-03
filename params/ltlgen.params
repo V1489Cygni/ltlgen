@@ -13,11 +13,11 @@ generations = 50
 
 multi.fitness.num-objectives = 6
 
-eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
-eval.problem.fitness.0.threshold = 0.75
+eval.problem.fitness.0 = ltlgen.fitnesses.ComplexityFitness
+eval.problem.fitness.0.threshold = 0.04
 
-eval.problem.fitness.1 = ltlgen.fitnesses.ComplexityFitness
-eval.problem.fitness.1.threshold = 0.04
+eval.problem.fitness.1 = ltlgen.fitnesses.CorrectnessFitness
+eval.problem.fitness.1.threshold = 0.75
 
 eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
 

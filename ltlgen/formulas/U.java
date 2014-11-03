@@ -22,7 +22,7 @@ public class U extends GPNode implements Verifiable {
         int complexity = data.complexity;
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "U(" + left + ", " + data.result + ")";
-        data.complexity += complexity + 4;
+        data.complexity += complexity + 8;
     }
 
     @Override

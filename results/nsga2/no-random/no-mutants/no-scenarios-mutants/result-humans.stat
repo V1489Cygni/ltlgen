@@ -3,95 +3,85 @@ Ideal individual not found.
 Time taken: 0 days, 0 hours, 0 minutes, 6 seconds.
 
 Front:
-G(!((wasAction(co.z2) and X(wasAction(co.z0)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.C)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G((wasEvent(ep.C) -> wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0]
+G((X(wasAction(co.z0)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G(F(!(wasAction(co.z2))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasAction(co.z0)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G(!((wasAction(co.z2) and X(wasAction(co.z2)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.C)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(!((wasAction(co.z2) and X(wasEvent(ep.C)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.B)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasEvent(ep.B)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(F(!(wasEvent(ep.D))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasAction(co.z2)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G((wasEvent(ep.B) -> wasAction(co.z0)))
-Fitness: [1.0 0.25 0.0]
-Rank: 0
-Sparsity: 0.0
---------------------
-G((wasAction(co.z2) -> wasEvent(ep.C)))
-Fitness: [1.0 0.25 0.0]
+G((X(wasAction(co.z2)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
 
 Best individuals:
-G(!((wasAction(co.z2) and X(wasAction(co.z0)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.C)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G((wasEvent(ep.C) -> wasAction(co.z2)))
-Fitness: [1.0 0.25 0.0]
+G((X(wasAction(co.z0)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G(F(!(wasAction(co.z2))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasAction(co.z0)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: Infinity
 --------------------
-G(!((wasAction(co.z2) and X(wasAction(co.z2)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.C)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(!((wasAction(co.z2) and X(wasEvent(ep.C)))))
-Fitness: [1.0 0.14285714285714285 1.0]
+G((X(wasEvent(ep.B)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(F(!(wasAction(co.z0))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasEvent(ep.B)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G(F(!(wasEvent(ep.D))))
-Fitness: [1.0 0.2 0.9285714285714286]
+G((X(wasAction(co.z2)) -> !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------
-G((wasEvent(ep.B) -> wasAction(co.z0)))
-Fitness: [1.0 0.25 0.0]
-Rank: 0
-Sparsity: 0.0
---------------------
-G((wasAction(co.z2) -> wasEvent(ep.C)))
-Fitness: [1.0 0.25 0.0]
+G((X(wasAction(co.z2)) -> !(wasEvent(ep.C))))
+Fitness: [0.14285714285714285 1.0 1.0]
 Rank: 0
 Sparsity: 0.0
 --------------------

@@ -14,5 +14,5 @@ public abstract class SingleFitness implements Setup {
         }
     }
 
-    public abstract double getFitness(String formula, int size);
+    public abstract double getFitness(String formula, int complexity);
 }

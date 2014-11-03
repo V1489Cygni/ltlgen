@@ -53,7 +53,7 @@ public class RandomFitness extends SingleFitness {
     }
 
     @Override
-    public double getFitness(String formula, int size) {
+    public double getFitness(String formula, int complexity) {
         double result = 0;
         for (FST fst : random) {
             result += Math.pow(Verifier.getVerifiedTransitionsRatio(fst, formula), 2);

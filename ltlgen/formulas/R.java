@@ -22,7 +22,7 @@ public class R extends GPNode implements Verifiable {
         int complexity = data.complexity;
         children[1].eval(state, thread, input, stack, individual, problem);
         data.result = "R(" + left + ", " + data.result + ")";
-        data.complexity += complexity + 4;
+        data.complexity += complexity + 8;
     }
 
     @Override

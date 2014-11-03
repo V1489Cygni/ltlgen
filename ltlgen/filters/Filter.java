@@ -14,5 +14,5 @@ public abstract class Filter implements Setup {
         }
     }
 
-    public abstract boolean accepts(String formula, int size);
+    public abstract boolean accepts(String formula, int complexity);
 }

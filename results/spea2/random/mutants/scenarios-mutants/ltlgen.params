@@ -1,4 +1,4 @@
-parent.0 = ../../../../../../params/ltlgen-spea2.params
+parent.0 = ../../../../../params/ltlgen-spea2.params
 
 #
 # General
@@ -13,11 +13,11 @@ generations = 50
 
 multi.fitness.num-objectives = 6
 
-eval.problem.fitness.0 = ltlgen.fitnesses.CorrectnessFitness
-eval.problem.fitness.0.threshold = 0.75
+eval.problem.fitness.0 = ltlgen.fitnesses.ComplexityFitness
+eval.problem.fitness.0.threshold = 0.04
 
-eval.problem.fitness.1 = ltlgen.fitnesses.ComplexityFitness
-eval.problem.fitness.1.threshold = 0.04
+eval.problem.fitness.1 = ltlgen.fitnesses.CorrectnessFitness
+eval.problem.fitness.1.threshold = 0.75
 
 eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
 
@@ -34,7 +34,9 @@ eval.problem.fitness.5.number = 40
 # Filters
 #
 
-eval.problem.filters.number = 0
+eval.problem.filters.number = 1
+
+eval.problem.filters.0 = ltlgen.filters.TemporalFilter
 
 #
 # Automaton
@@ -58,7 +60,7 @@ scenarios.state-number = 6
 #
 
 stat.front = front.stat
-stat.file = /dev/null
+stat.file = out.stat
 
 stat.child.0.log = log.stat
 stat.child.0.result = result.stat

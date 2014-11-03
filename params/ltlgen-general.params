@@ -25,11 +25,10 @@ gp.type.s.0.member.0 = x
 gp.type.s.0.member.1 = f
 gp.type.s.0.member.2 = others
 
-gp.type.s.1.name = nxo
-gp.type.s.1.size = 3
-gp.type.s.1.member.0 = not
-gp.type.s.1.member.1 = f
-gp.type.s.1.member.2 = others
+gp.type.s.1.name = xo
+gp.type.s.1.size = 2
+gp.type.s.1.member.0 = x
+gp.type.s.1.member.1 = others
 
 gp.type.s.2.name = no
 gp.type.s.2.size = 2
@@ -49,11 +48,19 @@ gp.type.s.4.member.0 = not
 gp.type.s.4.member.1 = f
 gp.type.s.4.member.2 = others
 
+#
+# Tree Constraints
+#
+
 gp.tc.size = 1
 gp.tc.0 = ec.gp.GPTreeConstraints
 gp.tc.0.name = tc0
 gp.tc.0.fset = f0
-gp.tc.0.returns = nfo
+gp.tc.0.returns = others
+
+#
+# Node Constraints
+#
 
 gp.nc.size = 5
 
@@ -67,7 +74,7 @@ gp.nc.1 = ec.gp.GPNodeConstraints
 gp.nc.1.name = x-type
 gp.nc.1.returns = x
 gp.nc.1.size = 1
-gp.nc.1.child.0 = nxo
+gp.nc.1.child.0 = xo
 
 gp.nc.2 = ec.gp.GPNodeConstraints
 gp.nc.2.name = f-type
