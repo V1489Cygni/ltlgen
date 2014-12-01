@@ -14,12 +14,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LTLProblem extends GPProblem {
-    public static final Map<String, EvaluationResult> results = new HashMap<>();
     public static int EVENT_NUMBER;
     public static int ACTION_NUMBER;
-    public static int found;
     private static Filter[] filters;
     private static SingleFitness[] fitnesses;
+    private static final Map<String, EvaluationResult> results = new HashMap<>();
 
     @Override
     public void setup(final EvolutionState state, Parameter base) {
@@ -60,7 +59,6 @@ public class LTLProblem extends GPProblem {
 
     private double[] getFitness(String formula, int size) {
         if (results.containsKey(formula)) {
-            found++;
             return results.get(formula).result;
         }
         double[] result = new double[fitnesses.length];
