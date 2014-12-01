@@ -1,0 +1,48 @@
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/random/mutants/no-scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 11 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/random/mutants/scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 5 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/random/no-mutants/no-scenarios-mutants/
+    new formulas cover 7/17 of known formulas
+    generated 8 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/random/no-mutants/scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 8 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/mutants/no-scenarios-mutants/
+    new formulas cover 10/17 of known formulas
+    generated 5 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/mutants/scenarios-mutants/
+    new formulas cover 13/17 of known formulas
+    generated 6 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/no-mutants/no-scenarios-mutants/
+    new formulas cover 14/17 of known formulas
+    generated 0 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/no-mutants/scenarios-mutants/
+    new formulas cover 11/17 of known formulas
+    generated 4 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/random/mutants/no-scenarios-mutants/
+    new formulas cover 16/17 of known formulas
+    generated 2 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/random/mutants/scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 6 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/random/no-mutants/no-scenarios-mutants/
+    new formulas cover 14/17 of known formulas
+    generated 51 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/random/no-mutants/scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 11 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/no-random/mutants/no-scenarios-mutants/
+    new formulas cover 17/17 of known formulas
+    generated 10 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/no-random/mutants/scenarios-mutants/
+    new formulas cover 10/17 of known formulas
+    generated 3 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/no-random/no-mutants/no-scenarios-mutants/
+    new formulas cover 11/17 of known formulas
+    generated 5 "new" formulas
+checking /home/e254f80d/Programming/ltlgen/results/scenarios/no-random/no-mutants/scenarios-mutants/
+    new formulas cover 16/17 of known formulas
+    generated 9 "new" formulas

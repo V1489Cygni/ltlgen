@@ -28,3 +28,11 @@ output
 
 # Temporary files
 *.un~
+
+# Temporary results
+results
+
+# Results checker
+check-results
+ltlgen/StatisticsParser.java
+get_stats.sh

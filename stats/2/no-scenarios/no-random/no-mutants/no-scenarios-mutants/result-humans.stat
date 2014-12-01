@@ -1,0 +1,72 @@
+Ideal individual not found.
+
+Time taken: 0 days, 0 hours, 0 minutes, 19 seconds.
+
+Front:
+G((X(wasAction(co.z0)) -> !(wasAction(co.z0))))
+Fitness: [0.14285714285714285 1.0]
+Strength: 213.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+
+Best individuals:
+G((X(wasAction(co.z0)) -> !(wasAction(co.z0))))
+Fitness: [0.14285714285714285 1.0]
+Strength: 213.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((X(X(wasAction(co.z0))) -> !(wasAction(co.z0))))
+Fitness: [0.1111111111111111 1.0]
+Strength: 206.0
+Distance: 0.495 Fitness: 61131.495
+--------------------
+G((X(wasAction(co.z0)) -> (X(wasAction(co.z0)) -> !(wasAction(co.z0)))))
+Fitness: [0.09090909090909091 1.0]
+Strength: 168.0
+Distance: 0.5 Fitness: 62573.5
+--------------------
+G((X(wasAction(co.z0)) -> X(wasAction(co.z0))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((wasAction(co.z0) or !(wasAction(co.z0))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((X(wasAction(co.z0)) -> wasAction(co.z0)))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G(((X(wasAction(co.z0)) -> !(wasAction(co.z0))) -> !(wasAction(co.z0))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G(wasAction(co.z0))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((X((X(wasAction(co.z0)) -> !(wasAction(co.z0)))) -> !(wasAction(co.z0))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((X(wasAction(co.z0)) -> !((X(wasAction(co.z0)) -> !(wasAction(co.z0))))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((X(wasAction(co.z0)) -> !(X(wasAction(co.z0)))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------
+G((wasAction(co.z0) -> !(wasAction(co.z0))))
+Fitness: [0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 68957.5
+--------------------

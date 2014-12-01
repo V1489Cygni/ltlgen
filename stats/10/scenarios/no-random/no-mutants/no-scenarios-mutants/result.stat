@@ -1,0 +1,133 @@
+Front:
+G((!(X(wasAction(co.z0))) or !(wasEvent(ep.B))))
+Fitness: [0.14285714285714285 1.0 1.0]
+Strength: 199.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((!(X(wasEvent(ep.B))) or !(wasEvent(ep.B))))
+Fitness: [0.14285714285714285 1.0 1.0]
+Strength: 199.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+
+Best individuals:
+G((!(X(wasAction(co.z0))) or !(wasEvent(ep.B))))
+Fitness: [0.14285714285714285 1.0 1.0]
+Strength: 199.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((!(X(wasEvent(ep.B))) or !(wasEvent(ep.B))))
+Fitness: [0.14285714285714285 1.0 1.0]
+Strength: 199.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((!(X(wasEvent(ep.B))) or X(wasAction(co.z0))))
+Fitness: [0.125 1.0 0.0]
+Strength: 157.0
+Distance: 0.33331562026717765 Fitness: 59899.333315620264
+--------------------
+G((!(X(X(wasAction(co.z0)))) or !(wasEvent(ep.B))))
+Fitness: [0.1111111111111111 1.0 1.0]
+Strength: 187.0
+Distance: 0.495 Fitness: 59899.495
+--------------------
+G((!(X(wasAction(co.z0))) or (!(X(wasAction(co.z0))) or !(wasEvent(ep.B)))))
+Fitness: [0.09090909090909091 1.0 1.0]
+Strength: 157.0
+Distance: 0.5 Fitness: 61395.5
+--------------------
+G((!(X(wasAction(co.z0))) or (!(X(wasEvent(ep.B))) or !(wasEvent(ep.B)))))
+Fitness: [0.09090909090909091 1.0 1.0]
+Strength: 157.0
+Distance: 0.5 Fitness: 61395.5
+--------------------
+G((!(X(wasEvent(ep.B))) or (!(X(wasAction(co.z0))) or !(wasEvent(ep.B)))))
+Fitness: [0.09090909090909091 1.0 1.0]
+Strength: 157.0
+Distance: 0.5 Fitness: 61395.5
+--------------------
+G((!((!(X(wasAction(co.z0))) or !(wasEvent(ep.B)))) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or wasEvent(ep.B)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or X(wasAction(co.z0))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(!(wasEvent(ep.B))) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(wasAction(co.z0)) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G(wasAction(co.z0))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X((!(X(wasAction(co.z0))) or !(wasEvent(ep.B))))) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or X(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!((!(X(wasEvent(ep.B))) or !(wasEvent(ep.B)))) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or !((!(X(wasAction(co.z0))) or !(wasEvent(ep.B))))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G(wasEvent(ep.B))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasEvent(ep.B))) or !((!(X(wasAction(co.z0))) or !(wasEvent(ep.B))))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or !(X(wasAction(co.z0)))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(wasEvent(ep.B)) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or wasAction(co.z0)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X((!(X(wasEvent(ep.B))) or !(wasEvent(ep.B))))) or !(wasEvent(ep.B))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------
+G((!(X(wasAction(co.z0))) or !((!(X(wasEvent(ep.B))) or !(wasEvent(ep.B))))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 66733.5
+--------------------

@@ -1,0 +1,48 @@
+/home/e254f80d/Programming/ltlgen/results/scenarios/random/mutants/scenarios-mutants/: 170/170, 44
+   17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17
+   1, 1, 2, 4, 5, 6, 6, 6, 6, 7
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/random/no-mutants/scenarios-mutants/: 169/170, 78
+   17/17, 17/17, 17/17, 16/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17
+   0, 4, 7, 9, 8, 8, 6, 12, 12, 12
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/random/mutants/scenarios-mutants/: 169/170, 65
+   16/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17
+   0, 1, 1, 1, 1, 5, 14, 14, 14, 14
+/home/e254f80d/Programming/ltlgen/results/scenarios/no-random/mutants/no-scenarios-mutants/: 164/170, 80
+   17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 14/17, 14/17
+   0, 3, 6, 9, 9, 10, 11, 10, 11, 11
+/home/e254f80d/Programming/ltlgen/results/scenarios/random/no-mutants/scenarios-mutants/: 164/170, 78
+   15/17, 17/17, 17/17, 15/17, 15/17, 17/17, 17/17, 17/17, 17/17, 17/17
+   2, 3, 3, 9, 9, 11, 10, 7, 12, 12
+/home/e254f80d/Programming/ltlgen/results/scenarios/no-random/no-mutants/scenarios-mutants/: 158/170, 80
+   14/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17
+   0, 3, 8, 11, 10, 9, 8, 9, 12, 10
+/home/e254f80d/Programming/ltlgen/results/scenarios/random/mutants/no-scenarios-mutants/: 155/170, 32
+   11/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17, 16/17
+   2, 2, 3, 3, 3, 2, 2, 3, 6, 6
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/random/mutants/no-scenarios-mutants/: 151/170, 86
+   17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 17/17, 12/17, 12/17, 8/17
+   7, 5, 5, 9, 7, 11, 12, 10, 9, 11
+/home/e254f80d/Programming/ltlgen/results/scenarios/random/no-mutants/no-scenarios-mutants/: 140/170, 373
+   14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17
+   5, 23, 29, 39, 44, 51, 50, 44, 43, 45
+/home/e254f80d/Programming/ltlgen/results/scenarios/no-random/mutants/scenarios-mutants/: 135/170, 27
+   17/17, 17/17, 17/17, 17/17, 17/17, 10/17, 10/17, 10/17, 10/17, 10/17
+   0, 1, 1, 1, 3, 3, 4, 4, 5, 5
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/no-mutants/no-scenarios-mutants/: 135/170, 4
+   9/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17, 14/17
+   0, 0, 0, 0, 0, 0, 1, 1, 1, 1
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/mutants/scenarios-mutants/: 132/170, 50
+   17/17, 10/17, 10/17, 13/17, 13/17, 13/17, 14/17, 14/17, 14/17, 14/17
+   0, 1, 1, 4, 7, 6, 6, 7, 7, 11
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/no-mutants/scenarios-mutants/: 124/170, 45
+   11/17, 10/17, 11/17, 11/17, 11/17, 11/17, 11/17, 16/17, 16/17, 16/17
+   0, 1, 2, 4, 4, 4, 5, 12, 7, 6
+/home/e254f80d/Programming/ltlgen/results/scenarios/no-random/no-mutants/no-scenarios-mutants/: 109/170, 66
+   10/17, 11/17, 11/17, 11/17, 11/17, 11/17, 11/17, 11/17, 11/17, 11/17
+   3, 3, 5, 3, 4, 5, 11, 7, 10, 15
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/no-random/mutants/no-scenarios-mutants/: 100/170, 49
+   10/17, 10/17, 10/17, 10/17, 10/17, 10/17, 10/17, 10/17, 10/17, 10/17
+   1, 1, 1, 1, 3, 5, 6, 9, 11, 11
+/home/e254f80d/Programming/ltlgen/results/no-scenarios/random/no-mutants/no-scenarios-mutants/: 78/170, 113
+   7/17, 7/17, 7/17, 7/17, 7/17, 7/17, 9/17, 9/17, 9/17, 9/17
+   0, 4, 7, 7, 8, 8, 12, 8, 26, 33

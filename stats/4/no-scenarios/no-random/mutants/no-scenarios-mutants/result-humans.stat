@@ -1,0 +1,112 @@
+Ideal individual not found.
+
+Time taken: 0 days, 0 hours, 1 minutes, 50 seconds.
+
+Front:
+G((X(wasEvent(ep.D)) -> wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.16720021341870084]
+Strength: 141.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((X((wasEvent(ep.D) or wasEvent(ep.E))) -> wasEvent(ep.A)))
+Fitness: [0.125 1.0 0.29764405762304913]
+Strength: 151.0
+Distance: 0.46917210823203104 Fitness: 0.46917210823203104
+--------------------
+
+Best individuals:
+G((X((wasEvent(ep.D) or wasEvent(ep.E))) -> wasEvent(ep.A)))
+Fitness: [0.125 1.0 0.29764405762304913]
+Strength: 151.0
+Distance: 0.46917210823203104 Fitness: 0.46917210823203104
+--------------------
+G((X(wasEvent(ep.D)) -> wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.16720021341870084]
+Strength: 141.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((X(wasEvent(ep.D)) -> (X(wasEvent(ep.D)) -> wasEvent(ep.A))))
+Fitness: [0.1 1.0 0.16862995198079223]
+Strength: 141.0
+Distance: 0.4838673786836922 Fitness: 1963.4838673786837
+--------------------
+G((X((wasEvent(ep.D) or wasEvent(ep.E))) -> (X(wasEvent(ep.D)) -> wasEvent(ep.A))))
+Fitness: [0.08333333333333333 1.0 0.1638280312124849]
+Strength: 140.0
+Distance: 0.47998428682702854 Fitness: 50749.47998428683
+--------------------
+G(((X(wasEvent(ep.D)) -> wasEvent(ep.A)) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((wasEvent(ep.A) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X(wasEvent(ep.D)) -> X(wasEvent(ep.D))))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G(wasEvent(ep.D))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X((X(wasEvent(ep.D)) -> wasEvent(ep.A))) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X(X(wasEvent(ep.D))) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((wasEvent(ep.D) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G(wasEvent(ep.A))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((wasEvent(ep.D) or wasEvent(ep.E)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X(wasEvent(ep.D)) -> wasEvent(ep.D)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X(wasEvent(ep.A)) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G(((X((wasEvent(ep.D) or wasEvent(ep.E))) -> wasEvent(ep.A)) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X(X((wasEvent(ep.D) or wasEvent(ep.E)))) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G((X((X((wasEvent(ep.D) or wasEvent(ep.E))) -> wasEvent(ep.A))) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------
+G(((wasEvent(ep.D) or wasEvent(ep.E)) -> wasEvent(ep.A)))
+Fitness: [0.0 0.0 0.0]
+Strength: 0.0
+Distance: 0.5 Fitness: 50889.5
+--------------------

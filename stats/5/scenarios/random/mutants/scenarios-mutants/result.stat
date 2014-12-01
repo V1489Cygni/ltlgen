@@ -1,0 +1,558 @@
+Front:
+G((!(X((wasAction(co.z0) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9810666666666666 0.13877551020408174 0.9987652337616874]
+Strength: 214.0
+Distance: 0.4887310737926048 Fitness: 0.4887310737926048
+--------------------
+G((!(X((wasEvent(ep.E) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 0.8571428571428572 0.9776 0.14081632653061216 0.9912835823239919]
+Strength: 210.0
+Distance: 0.482881483865986 Fitness: 0.482881483865986
+--------------------
+G((!(X((wasAction(co.z2) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9836444444444444 0.11767290249433093 0.9991776403416763]
+Strength: 213.0
+Distance: 0.4848456616437448 Fitness: 0.4848456616437448
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasEvent(ep.A)))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9251555555555556 0.4135593820861678 0.9924816717526008]
+Strength: 229.0
+Distance: 0.47367077400288937 Fitness: 0.47367077400288937
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(wasEvent(ep.A))))))
+Fitness: [0.06666666666666667 1.0 0.9285714285714286 0.920088888888889 0.4068948412698413 0.991653269385737]
+Strength: 225.0
+Distance: 0.47448713294801725 Fitness: 0.47448713294801725
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X(wasAction(co.z0)))))))))
+Fitness: [0.043478260869565216 1.0 1.0 0.7210666666666667 0.4599454365079365 0.9967734359380214]
+Strength: 202.0
+Distance: 0.4949009064481144 Fitness: 0.4949009064481144
+--------------------
+G((!(wasEvent(ep.A)) or F((wasAction(co.z2) or (wasAction(co.z2) or wasAction(co.z0))))))
+Fitness: [0.07692307692307693 1.0 1.0 0.39431111111111117 0.3410041099773242 0.9899475040111404]
+Strength: 203.0
+Distance: 0.4824389397240436 Fitness: 0.4824389397240436
+--------------------
+G((!(wasAction(co.z0)) or (!(wasAction(co.z0)) or F((wasAction(co.z2) or wasEvent(ep.A))))))
+Fitness: [0.07692307692307693 1.0 0.9285714285714286 0.7547555555555556 0.24675453514739232 0.9909510595077029]
+Strength: 206.0
+Distance: 0.49651292083566334 Fitness: 0.49651292083566334
+--------------------
+G((!((wasEvent(ep.E) or wasEvent(ep.A))) or F((wasAction(co.z2) or wasAction(co.z0)))))
+Fitness: [0.07692307692307693 1.0 0.9285714285714286 0.6282666666666668 0.34463931405895687 0.9934143704225622]
+Strength: 205.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((!(X(wasAction(co.z2))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.8336 0.1202239229024944 0.9945355391860886]
+Strength: 213.0
+Distance: 0.4701237566845415 Fitness: 0.4701237566845415
+--------------------
+G((!(X(wasAction(co.z2))) or X(wasEvent(ep.C))))
+Fitness: [0.125 1.0 0.0 0.9764444444444444 0.0 0.09245796439103127]
+Strength: 209.0
+Distance: 0.36308537708719363 Fitness: 0.36308537708719363
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or wasEvent(ep.E)))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.835288888888889 0.2939342403628118 0.9903543790209125]
+Strength: 219.0
+Distance: 0.47741925876671504 Fitness: 0.47741925876671504
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or wasEvent(ep.A)))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.7536 0.24624433106575971 0.9912571819566824]
+Strength: 211.0
+Distance: 0.49652688230625874 Fitness: 0.49652688230625874
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.058823529411764705 1.0 1.0 0.7075555555555556 0.46249645691609975 0.9970795583870009]
+Strength: 215.0
+Distance: 0.4960671001865256 Fitness: 0.4960671001865256
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X(X(wasAction(co.z0)))))))))
+Fitness: [0.047619047619047616 1.0 1.0 0.7192000000000001 0.46297477324263037 0.9967734359380214]
+Strength: 207.0
+Distance: 0.49599001964405576 Fitness: 0.49599001964405576
+--------------------
+G((!(X(X(wasAction(co.z2)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9131555555555555 0.21410147392290257 0.9924409853882381]
+Strength: 217.0
+Distance: 0.4817213937586761 Fitness: 0.4817213937586761
+--------------------
+G((!(X(wasEvent(ep.C))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.8702222222222222 0.1202239229024944 0.9323920782514189]
+Strength: 210.0
+Distance: 0.4709047655262863 Fitness: 0.4709047655262863
+--------------------
+G((!(X(X(wasAction(co.z0)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.92 0.16354875283446724 0.9963100162352909]
+Strength: 215.0
+Distance: 0.48365912616981654 Fitness: 0.48365912616981654
+--------------------
+G((!(wasAction(co.z2)) or !(X((wasAction(co.z0) or F((wasAction(co.z2) or wasAction(co.z0))))))))
+Fitness: [0.0625 1.0 1.0 0.9897777777777778 0.21410147392290257 0.9971185605603188]
+Strength: 209.0
+Distance: 0.48267054684499894 Fitness: 0.48267054684499894
+--------------------
+G((!(wasEvent(ep.C)) or !(X(X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9731555555555556 0.23840702947845804 0.992561475398838]
+Strength: 216.0
+Distance: 0.48255366617871714 Fitness: 0.48255366617871714
+--------------------
+G((!(X(wasEvent(ep.A))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.9344 0.09285714285714275 0.9984102041758884]
+Strength: 212.0
+Distance: 0.4807576015024787 Fitness: 0.4807576015024787
+--------------------
+G((!(wasAction(co.z2)) or !(X((wasAction(co.z0) or wasEvent(ep.A))))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9830222222222222 0.13928571428571423 0.9986468905664211]
+Strength: 216.0
+Distance: 0.4884213518725883 Fitness: 0.4884213518725883
+--------------------
+G((!(wasEvent(ep.A)) or F((wasAction(co.z2) or wasAction(co.z0)))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.3953777777777777 0.3410041099773242 0.9888413574104883]
+Strength: 207.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+G((!(X((wasAction(co.z2) or wasAction(co.z0)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9438222222222222 0.16563208616780045 0.9945023138644018]
+Strength: 215.0
+Distance: 0.48605197021459795 Fitness: 0.48605197021459795
+--------------------
+G((!(X(((wasAction(co.z2) or wasAction(co.z0)) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9877333333333334 0.16614229024943317 0.9979899818463255]
+Strength: 217.0
+Distance: 0.48745702366409316 Fitness: 0.48745702366409316
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or wasEvent(ep.A)))))
+Fitness: [0.07692307692307693 1.0 0.9285714285714286 0.753688888888889 0.24624433106575971 0.9915633044056621]
+Strength: 205.0
+Distance: 0.49652688230625874 Fitness: 0.49652688230625874
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X(X(wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.717688888888889 0.46348497732426297 0.9967734359380214]
+Strength: 198.0
+Distance: 0.4947059494780535 Fitness: 0.4947059494780535
+--------------------
+G((!(X(X(wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9759111111111111 0.1617346938775508 0.9985285473711548]
+Strength: 216.0
+Distance: 0.4890597347555076 Fitness: 0.4890597347555076
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or X(X(wasAction(co.z0)))))))
+Fitness: [0.06666666666666667 1.0 1.0 0.6571555555555556 0.4588860544217688 0.9964673134890417]
+Strength: 214.0
+Distance: 0.4850032600662887 Fitness: 0.4850032600662887
+--------------------
+G((!(X(wasEvent(ep.E))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.125 1.0 0.5 0.9516444444444444 0.13752834467120179 0.7473740931895276]
+Strength: 209.0
+Distance: 0.4178820888310665 Fitness: 0.4178820888310665
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(X(wasAction(co.z0)))))))
+Fitness: [0.058823529411764705 1.0 1.0 0.7232000000000001 0.4599454365079365 0.9966713951216948]
+Strength: 217.0
+Distance: 0.4960671001865256 Fitness: 0.4960671001865256
+--------------------
+G((!(X(X(wasEvent(ep.C)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9699555555555556 0.21410147392290257 0.9724350971705618]
+Strength: 211.0
+Distance: 0.4855965269439711 Fitness: 0.4855965269439711
+--------------------
+G((!((wasAction(co.z0) or X((wasAction(co.z2) or wasAction(co.z0))))) or F((wasAction(co.z2) or wasEvent(ep.A)))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.7528 0.245734126984127 0.9933795101779118]
+Strength: 203.0
+Distance: 0.49208489499275143 Fitness: 0.49208489499275143
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F(((X(wasAction(co.z2)) or X(wasEvent(ep.A))) or X(X(wasEvent(ep.E)))))))
+Fitness: [0.043478260869565216 1.0 0.9285714285714286 0.8064888888888889 0.30793650793650795 0.9933795101779118]
+Strength: 200.0
+Distance: 0.47896422728327853 Fitness: 0.47896422728327853
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(X(wasEvent(ep.A)))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9248888888888889 0.41530612244897946 0.9919593918347165]
+Strength: 230.0
+Distance: 0.47344135789637876 Fitness: 0.47344135789637876
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.06666666666666667 1.0 1.0 0.6593777777777778 0.45741921768707483 0.995977638329037]
+Strength: 213.0
+Distance: 0.48548313545961447 Fitness: 0.48548313545961447
+--------------------
+G((!(((wasAction(co.z0) or wasEvent(ep.A)) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.05263157894736842 1.0 1.0 0.7130666666666667 0.46912910997732427 0.9960796791453634]
+Strength: 207.0
+Distance: 0.49665149059839475 Fitness: 0.49665149059839475
+--------------------
+G((!(X(wasAction(co.z0))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.125 1.0 0.8571428571428572 0.9506666666666667 0.20746882086167795 0.9920981597767312]
+Strength: 212.0
+Distance: 0.48234091318837713 Fitness: 0.48234091318837713
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or (wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0))))))))
+Fitness: [0.05263157894736842 1.0 1.0 0.7121777777777778 0.4599454365079365 0.9966919240433226]
+Strength: 209.0
+Distance: 0.4976989184291117 Fitness: 0.4976989184291117
+--------------------
+G((!(X(X((wasAction(co.z2) or wasAction(co.z0))))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9805333333333334 0.21308106575963737 0.9951677092138631]
+Strength: 222.0
+Distance: 0.4846590375707473 Fitness: 0.4846590375707473
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((X(wasAction(co.z2)) or X(wasEvent(ep.A))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9358222222222222 0.40465915532879815 0.9927877942015804]
+Strength: 221.0
+Distance: 0.47561550625502985 Fitness: 0.47561550625502985
+--------------------
+G((!(X((wasEvent(ep.E) or X((wasAction(co.z2) or wasAction(co.z0)))))) or !(wasAction(co.z2))))
+Fitness: [0.07692307692307693 1.0 0.8571428571428572 0.9858666666666667 0.2089994331065761 0.9817962841853451]
+Strength: 204.0
+Distance: 0.4813928967881431 Fitness: 0.4813928967881431
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.7194666666666667 0.4615079365079364 0.9967734359380214]
+Strength: 198.0
+Distance: 0.49448658154691805 Fitness: 0.49448658154691805
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(wasAction(co.z0)))))))
+Fitness: [0.05263157894736842 1.0 1.0 0.7172444444444445 0.46297477324263037 0.9962837607780165]
+Strength: 207.0
+Distance: 0.49713256519036925 Fitness: 0.49713256519036925
+--------------------
+G((!(X((wasAction(co.z2) or X((wasAction(co.z2) or wasEvent(ep.A)))))) or !(wasAction(co.z2))))
+Fitness: [0.07692307692307693 1.0 1.0 0.9808888888888889 0.21359126984126997 0.9992245864026084]
+Strength: 213.0
+Distance: 0.4839109812026195 Fitness: 0.4839109812026195
+--------------------
+G((!(X(X(X(wasEvent(ep.C))))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9695111111111111 0.21410147392290257 0.9939529626994162]
+Strength: 216.0
+Distance: 0.48598287640274274 Fitness: 0.48598287640274274
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (((wasEvent(ep.E) or (!(wasEvent(ep.A)) or F((wasAction(co.z2) or wasAction(co.z0))))) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.04 1.0 0.7857142857142857 0.9766222222222222 0.2706951530612245 0.9682138054586107]
+Strength: 196.0
+Distance: 0.46167762097810183 Fitness: 0.46167762097810183
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9763555555555555 0.27541454081632655 0.9658772808443638]
+Strength: 202.0
+Distance: 0.46254473563563664 Fitness: 0.46254473563563664
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.08333333333333333 1.0 0.7857142857142857 0.9758222222222223 0.2800063775510204 0.9668425942522346]
+Strength: 209.0
+Distance: 0.4627972876060164 Fitness: 0.4627972876060164
+--------------------
+G((!(wasEvent(ep.A)) or F(((wasAction(co.z2) or wasAction(co.z0)) or wasAction(co.z0)))))
+Fitness: [0.07692307692307693 1.0 1.0 0.40168888888888876 0.3410041099773242 0.9888413574104883]
+Strength: 203.0
+Distance: 0.48237915825371963 Fitness: 0.48237915825371963
+--------------------
+G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.7142857142857143 0.9479111111111111 0.16713081065759638 0.872022233510745]
+Strength: 210.0
+Distance: 0.4549132254105506 Fitness: 0.4549132254105506
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or (!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A))))))
+Fitness: [0.05555555555555555 1.0 0.7857142857142857 0.9780444444444445 0.2661033163265306 0.9680954622633444]
+Strength: 200.0
+Distance: 0.4637618435985606 Fitness: 0.4637618435985606
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A))))
+Fitness: [0.1 1.0 0.7857142857142857 0.9757333333333333 0.2706951530612245 0.9673179281091868]
+Strength: 213.0
+Distance: 0.4649926289904916 Fitness: 0.4649926289904916
+--------------------
+G((!(X(X(wasAction(co.z0)))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.1 1.0 0.8571428571428572 0.9728888888888889 0.3562641723356009 0.9919961189604046]
+Strength: 218.0
+Distance: 0.4723187701006308 Fitness: 0.4723187701006308
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or (wasAction(co.z2) or X(((wasAction(co.z2) or wasAction(co.z0)) or wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.7234666666666667 0.4588931405895691 0.9967734359380214]
+Strength: 198.0
+Distance: 0.49384882436251376 Fitness: 0.49384882436251376
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or wasEvent(ep.E)))))
+Fitness: [0.07692307692307693 1.0 0.9285714285714286 0.8930666666666667 0.3827522675736962 0.9900482565719328]
+Strength: 221.0
+Distance: 0.4747637447626637 Fitness: 0.4747637447626637
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((((wasEvent(ep.E) or wasEvent(ep.A)) or wasEvent(ep.A)) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.05555555555555555 1.0 0.7857142857142857 0.9771555555555556 0.27541454081632655 0.9672507575175407]
+Strength: 201.0
+Distance: 0.46211572961608793 Fitness: 0.46211572961608793
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((wasEvent(ep.E) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.07142857142857142 1.0 0.7857142857142857 0.9775111111111111 0.2645727040816326 0.9682138054586107]
+Strength: 201.0
+Distance: 0.4650985393191044 Fitness: 0.4650985393191044
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (((wasEvent(ep.E) or wasEvent(ep.A)) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9779555555555556 0.27528698979591837 0.9650795221594922]
+Strength: 202.0
+Distance: 0.4625411489532921 Fitness: 0.4625411489532921
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((wasEvent(ep.A) and (wasAction(co.z2) or wasAction(co.z0))) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9751111111111112 0.27528698979591837 0.9670466758848877]
+Strength: 202.0
+Distance: 0.4626027369382199 Fitness: 0.4626027369382199
+--------------------
+G((!(wasAction(co.z2)) or !(X(X(wasAction(co.z2))))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9155555555555556 0.21410147392290257 0.991069774181862]
+Strength: 216.0
+Distance: 0.48213828345050985 Fitness: 0.48213828345050985
+--------------------
+
+Best individuals:
+G((!(X(wasAction(co.z2))) or X(wasEvent(ep.C))))
+Fitness: [0.125 1.0 0.0 0.9764444444444444 0.0 0.09245796439103127]
+Strength: 209.0
+Distance: 0.36308537708719363 Fitness: 0.36308537708719363
+--------------------
+G((!(X(wasEvent(ep.E))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.125 1.0 0.5 0.9516444444444444 0.13752834467120179 0.7473740931895276]
+Strength: 209.0
+Distance: 0.4178820888310665 Fitness: 0.4178820888310665
+--------------------
+G((!(X(wasEvent(ep.E))) or wasEvent(ep.A)))
+Fitness: [0.16666666666666666 1.0 0.7142857142857143 0.9479111111111111 0.16713081065759638 0.872022233510745]
+Strength: 210.0
+Distance: 0.4549132254105506 Fitness: 0.4549132254105506
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (((wasEvent(ep.E) or (!(wasEvent(ep.A)) or F((wasAction(co.z2) or wasAction(co.z0))))) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.04 1.0 0.7857142857142857 0.9766222222222222 0.2706951530612245 0.9682138054586107]
+Strength: 196.0
+Distance: 0.46167762097810183 Fitness: 0.46167762097810183
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((((wasEvent(ep.E) or wasEvent(ep.A)) or wasEvent(ep.A)) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.05555555555555555 1.0 0.7857142857142857 0.9771555555555556 0.27541454081632655 0.9672507575175407]
+Strength: 201.0
+Distance: 0.46211572961608793 Fitness: 0.46211572961608793
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (((wasEvent(ep.E) or wasEvent(ep.A)) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9779555555555556 0.27528698979591837 0.9650795221594922]
+Strength: 202.0
+Distance: 0.4625411489532921 Fitness: 0.4625411489532921
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9763555555555555 0.27541454081632655 0.9658772808443638]
+Strength: 202.0
+Distance: 0.46254473563563664 Fitness: 0.46254473563563664
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((wasEvent(ep.A) and (wasAction(co.z2) or wasAction(co.z0))) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.0625 1.0 0.7857142857142857 0.9751111111111112 0.27528698979591837 0.9670466758848877]
+Strength: 202.0
+Distance: 0.4626027369382199 Fitness: 0.4626027369382199
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.08333333333333333 1.0 0.7857142857142857 0.9758222222222223 0.2800063775510204 0.9668425942522346]
+Strength: 209.0
+Distance: 0.4627972876060164 Fitness: 0.4627972876060164
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or (!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A))))))
+Fitness: [0.05555555555555555 1.0 0.7857142857142857 0.9780444444444445 0.2661033163265306 0.9680954622633444]
+Strength: 200.0
+Distance: 0.4637618435985606 Fitness: 0.4637618435985606
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or (wasAction(co.z0) or wasEvent(ep.A))))
+Fitness: [0.1 1.0 0.7857142857142857 0.9757333333333333 0.2706951530612245 0.9673179281091868]
+Strength: 213.0
+Distance: 0.4649926289904916 Fitness: 0.4649926289904916
+--------------------
+G((!(X(X(wasEvent(ep.E)))) or ((wasEvent(ep.E) and wasEvent(ep.A)) or (wasAction(co.z0) or wasEvent(ep.A)))))
+Fitness: [0.07142857142857142 1.0 0.7857142857142857 0.9775111111111111 0.2645727040816326 0.9682138054586107]
+Strength: 201.0
+Distance: 0.4650985393191044 Fitness: 0.4650985393191044
+--------------------
+G((!(X(wasAction(co.z2))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.8336 0.1202239229024944 0.9945355391860886]
+Strength: 213.0
+Distance: 0.4701237566845415 Fitness: 0.4701237566845415
+--------------------
+G((!(X(wasEvent(ep.C))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.8702222222222222 0.1202239229024944 0.9323920782514189]
+Strength: 210.0
+Distance: 0.4709047655262863 Fitness: 0.4709047655262863
+--------------------
+G((!(X(X(wasAction(co.z0)))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.1 1.0 0.8571428571428572 0.9728888888888889 0.3562641723356009 0.9919961189604046]
+Strength: 218.0
+Distance: 0.4723187701006308 Fitness: 0.4723187701006308
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(X(wasEvent(ep.A)))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9248888888888889 0.41530612244897946 0.9919593918347165]
+Strength: 230.0
+Distance: 0.47344135789637876 Fitness: 0.47344135789637876
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasEvent(ep.A)))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9251555555555556 0.4135593820861678 0.9924816717526008]
+Strength: 229.0
+Distance: 0.47367077400288937 Fitness: 0.47367077400288937
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X(wasEvent(ep.A))))))
+Fitness: [0.06666666666666667 1.0 0.9285714285714286 0.920088888888889 0.4068948412698413 0.991653269385737]
+Strength: 225.0
+Distance: 0.47448713294801725 Fitness: 0.47448713294801725
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or wasEvent(ep.E)))))
+Fitness: [0.07692307692307693 1.0 0.9285714285714286 0.8930666666666667 0.3827522675736962 0.9900482565719328]
+Strength: 221.0
+Distance: 0.4747637447626637 Fitness: 0.4747637447626637
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((X(wasAction(co.z2)) or X(wasEvent(ep.A))))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.9358222222222222 0.40465915532879815 0.9927877942015804]
+Strength: 221.0
+Distance: 0.47561550625502985 Fitness: 0.47561550625502985
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or wasEvent(ep.E)))))
+Fitness: [0.09090909090909091 1.0 0.9285714285714286 0.835288888888889 0.2939342403628118 0.9903543790209125]
+Strength: 219.0
+Distance: 0.47741925876671504 Fitness: 0.47741925876671504
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F(((X(wasAction(co.z2)) or X(wasEvent(ep.A))) or X(X(wasEvent(ep.E)))))))
+Fitness: [0.043478260869565216 1.0 0.9285714285714286 0.8064888888888889 0.30793650793650795 0.9933795101779118]
+Strength: 200.0
+Distance: 0.47896422728327853 Fitness: 0.47896422728327853
+--------------------
+G((!(X(wasEvent(ep.A))) or !(wasAction(co.z2))))
+Fitness: [0.14285714285714285 1.0 1.0 0.9344 0.09285714285714275 0.9984102041758884]
+Strength: 212.0
+Distance: 0.4807576015024787 Fitness: 0.4807576015024787
+--------------------
+G((!(X((wasEvent(ep.E) or X((wasAction(co.z2) or wasAction(co.z0)))))) or !(wasAction(co.z2))))
+Fitness: [0.07692307692307693 1.0 0.8571428571428572 0.9858666666666667 0.2089994331065761 0.9817962841853451]
+Strength: 204.0
+Distance: 0.4813928967881431 Fitness: 0.4813928967881431
+--------------------
+G((!(X(X(wasAction(co.z2)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9131555555555555 0.21410147392290257 0.9924409853882381]
+Strength: 217.0
+Distance: 0.4817213937586761 Fitness: 0.4817213937586761
+--------------------
+G((!(wasAction(co.z2)) or !(X(X(wasAction(co.z2))))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9155555555555556 0.21410147392290257 0.991069774181862]
+Strength: 216.0
+Distance: 0.48213828345050985 Fitness: 0.48213828345050985
+--------------------
+G((!(X(wasAction(co.z0))) or (wasEvent(ep.E) or wasEvent(ep.A))))
+Fitness: [0.125 1.0 0.8571428571428572 0.9506666666666667 0.20746882086167795 0.9920981597767312]
+Strength: 212.0
+Distance: 0.48234091318837713 Fitness: 0.48234091318837713
+--------------------
+G((!(wasEvent(ep.A)) or F(((wasAction(co.z2) or wasAction(co.z0)) or wasAction(co.z0)))))
+Fitness: [0.07692307692307693 1.0 1.0 0.40168888888888876 0.3410041099773242 0.9888413574104883]
+Strength: 203.0
+Distance: 0.48237915825371963 Fitness: 0.48237915825371963
+--------------------
+G((!(wasEvent(ep.A)) or F((wasAction(co.z2) or (wasAction(co.z2) or wasAction(co.z0))))))
+Fitness: [0.07692307692307693 1.0 1.0 0.39431111111111117 0.3410041099773242 0.9899475040111404]
+Strength: 203.0
+Distance: 0.4824389397240436 Fitness: 0.4824389397240436
+--------------------
+G((!(wasEvent(ep.C)) or !(X(X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9731555555555556 0.23840702947845804 0.992561475398838]
+Strength: 216.0
+Distance: 0.48255366617871714 Fitness: 0.48255366617871714
+--------------------
+G((!(wasAction(co.z2)) or !(X((wasAction(co.z0) or F((wasAction(co.z2) or wasAction(co.z0))))))))
+Fitness: [0.0625 1.0 1.0 0.9897777777777778 0.21410147392290257 0.9971185605603188]
+Strength: 209.0
+Distance: 0.48267054684499894 Fitness: 0.48267054684499894
+--------------------
+G((!(X((wasEvent(ep.E) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 0.8571428571428572 0.9776 0.14081632653061216 0.9912835823239919]
+Strength: 210.0
+Distance: 0.482881483865986 Fitness: 0.482881483865986
+--------------------
+G((!(X(X(wasAction(co.z0)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.92 0.16354875283446724 0.9963100162352909]
+Strength: 215.0
+Distance: 0.48365912616981654 Fitness: 0.48365912616981654
+--------------------
+G((!(X((wasAction(co.z2) or X((wasAction(co.z2) or wasEvent(ep.A)))))) or !(wasAction(co.z2))))
+Fitness: [0.07692307692307693 1.0 1.0 0.9808888888888889 0.21359126984126997 0.9992245864026084]
+Strength: 213.0
+Distance: 0.4839109812026195 Fitness: 0.4839109812026195
+--------------------
+G((!(X(X((wasAction(co.z2) or wasAction(co.z0))))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9805333333333334 0.21308106575963737 0.9951677092138631]
+Strength: 222.0
+Distance: 0.4846590375707473 Fitness: 0.4846590375707473
+--------------------
+G((!(X((wasAction(co.z2) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9836444444444444 0.11767290249433093 0.9991776403416763]
+Strength: 213.0
+Distance: 0.4848456616437448 Fitness: 0.4848456616437448
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or X(X(wasAction(co.z0)))))))
+Fitness: [0.06666666666666667 1.0 1.0 0.6571555555555556 0.4588860544217688 0.9964673134890417]
+Strength: 214.0
+Distance: 0.4850032600662887 Fitness: 0.4850032600662887
+--------------------
+G((!(wasAction(co.z0)) or F((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0)))))))
+Fitness: [0.06666666666666667 1.0 1.0 0.6593777777777778 0.45741921768707483 0.995977638329037]
+Strength: 213.0
+Distance: 0.48548313545961447 Fitness: 0.48548313545961447
+--------------------
+G((!(X(X(wasEvent(ep.C)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9699555555555556 0.21410147392290257 0.9724350971705618]
+Strength: 211.0
+Distance: 0.4855965269439711 Fitness: 0.4855965269439711
+--------------------
+G((!(X(X(X(wasEvent(ep.C))))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9695111111111111 0.21410147392290257 0.9939529626994162]
+Strength: 216.0
+Distance: 0.48598287640274274 Fitness: 0.48598287640274274
+--------------------
+G((!(X((wasAction(co.z2) or wasAction(co.z0)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9438222222222222 0.16563208616780045 0.9945023138644018]
+Strength: 215.0
+Distance: 0.48605197021459795 Fitness: 0.48605197021459795
+--------------------
+G((!(X(((wasAction(co.z2) or wasAction(co.z0)) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.09090909090909091 1.0 1.0 0.9877333333333334 0.16614229024943317 0.9979899818463255]
+Strength: 217.0
+Distance: 0.48745702366409316 Fitness: 0.48745702366409316
+--------------------
+G((!(wasAction(co.z2)) or !(X((wasAction(co.z0) or wasEvent(ep.A))))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9830222222222222 0.13928571428571423 0.9986468905664211]
+Strength: 216.0
+Distance: 0.4884213518725883 Fitness: 0.4884213518725883
+--------------------
+G((!(X((wasAction(co.z0) or wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9810666666666666 0.13877551020408174 0.9987652337616874]
+Strength: 214.0
+Distance: 0.4887310737926048 Fitness: 0.4887310737926048
+--------------------
+G((!(X(X(wasEvent(ep.A)))) or !(wasAction(co.z2))))
+Fitness: [0.1111111111111111 1.0 1.0 0.9759111111111111 0.1617346938775508 0.9985285473711548]
+Strength: 216.0
+Distance: 0.4890597347555076 Fitness: 0.4890597347555076
+--------------------
+G((!((wasAction(co.z0) or X((wasAction(co.z2) or wasAction(co.z0))))) or F((wasAction(co.z2) or wasEvent(ep.A)))))
+Fitness: [0.058823529411764705 1.0 0.9285714285714286 0.7528 0.245734126984127 0.9933795101779118]
+Strength: 203.0
+Distance: 0.49208489499275143 Fitness: 0.49208489499275143
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or (wasAction(co.z2) or X(((wasAction(co.z2) or wasAction(co.z0)) or wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.7234666666666667 0.4588931405895691 0.9967734359380214]
+Strength: 198.0
+Distance: 0.49384882436251376 Fitness: 0.49384882436251376
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X((wasAction(co.z2) or wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.7194666666666667 0.4615079365079364 0.9967734359380214]
+Strength: 198.0
+Distance: 0.49448658154691805 Fitness: 0.49448658154691805
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X(X(wasAction(co.z0))))))))))
+Fitness: [0.04 1.0 1.0 0.717688888888889 0.46348497732426297 0.9967734359380214]
+Strength: 198.0
+Distance: 0.4947059494780535 Fitness: 0.4947059494780535
+--------------------
+G((!((wasAction(co.z0) or wasEvent(ep.A))) or (!((wasAction(co.z0) or wasEvent(ep.A))) or F((wasAction(co.z2) or X((wasAction(co.z2) or X(wasAction(co.z0)))))))))
+Fitness: [0.043478260869565216 1.0 1.0 0.7210666666666667 0.4599454365079365 0.9967734359380214]
+Strength: 202.0
+Distance: 0.4949009064481144 Fitness: 0.4949009064481144
+--------------------

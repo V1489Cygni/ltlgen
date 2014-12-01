@@ -4,14 +4,14 @@ parent.0 = ltlgen-spea2.params
 # General
 #
 
-pop.subpop.0.size = 500
+pop.subpop.0.size = 800
 generations = 50
 
 #
 # Fitness
 #
 
-multi.fitness.num-objectives = 6
+multi.fitness.num-objectives = 5
 
 eval.problem.fitness.0 = ltlgen.fitnesses.ComplexityFitness
 eval.problem.fitness.0.threshold = 0.04
@@ -21,14 +21,14 @@ eval.problem.fitness.1.threshold = 0.75
 
 eval.problem.fitness.2 = ltlgen.fitnesses.ScenariosFitness
 
-eval.problem.fitness.3 = ltlgen.fitnesses.RandomFitness
+#eval.problem.fitness.3 = ltlgen.fitnesses.RandomFitness
+#eval.problem.fitness.3.number = 40
+
+eval.problem.fitness.3 = ltlgen.fitnesses.MutatedFitness
 eval.problem.fitness.3.number = 40
 
-eval.problem.fitness.4 = ltlgen.fitnesses.MutatedFitness
+eval.problem.fitness.4 = ltlgen.fitnesses.MutatedScenariosFitness
 eval.problem.fitness.4.number = 40
-
-eval.problem.fitness.5 = ltlgen.fitnesses.MutatedScenariosFitness
-eval.problem.fitness.5.number = 40
 
 #
 # Filters

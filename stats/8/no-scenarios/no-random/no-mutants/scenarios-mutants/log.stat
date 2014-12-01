@@ -1,0 +1,300 @@
+Generation 0
+Best individual: G(U(wasEvent(ep.B), F(!(wasAction(co.z0)))))
+Fitness: [0.058823529411764705 1.0 0.9936530614130015]
+Strength: 494.0
+Distance: 0.2931726424875528 Fitness: 0.2931726424875528
+--------------------
+Generation 1
+Best individual: G(U(wasEvent(ep.B), F(!(wasAction(co.z0)))))
+Fitness: [0.058823529411764705 1.0 0.9936530614130015]
+Strength: 487.0
+Distance: 0.34074869252352646 Fitness: 0.34074869252352646
+--------------------
+Generation 2
+Best individual: G((!(wasEvent(ep.B)) or F(!(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.8122184111315479]
+Strength: 475.0
+Distance: 0.45670473365130754 Fitness: 0.45670473365130754
+--------------------
+Generation 3
+Best individual: G((!(wasEvent(ep.B)) or F(!(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.8122184111315479]
+Strength: 441.0
+Distance: 0.45717000873503816 Fitness: 0.45717000873503816
+--------------------
+Generation 4
+Best individual: G((!(wasEvent(ep.B)) or F(!(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.8122184111315479]
+Strength: 370.0
+Distance: 0.468061660093476 Fitness: 0.468061660093476
+--------------------
+Generation 5
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasEvent(ep.B)))))
+Fitness: [0.14285714285714285 1.0 0.05326530612244906]
+Strength: 251.0
+Distance: 0.4872535360303406 Fitness: 0.4872535360303406
+--------------------
+Generation 6
+Best individual: G((wasAction(co.z2) or F(!(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.9936530614130015]
+Strength: 451.0
+Distance: 0.48991354466858794 Fitness: 0.48991354466858794
+--------------------
+Generation 7
+Best individual: G((!(wasEvent(ep.D)) or !(X(X(wasEvent(ep.B))))))
+Fitness: [0.1111111111111111 1.0 0.9753348636933052]
+Strength: 294.0
+Distance: 0.49327409427455843 Fitness: 0.49327409427455843
+--------------------
+Generation 8
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 402.0
+Distance: 0.48942992443744154 Fitness: 0.48942992443744154
+--------------------
+Generation 9
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 374.0
+Distance: 0.48951012081969525 Fitness: 0.48951012081969525
+--------------------
+Generation 10
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 280.0
+Distance: 0.4915740346863626 Fitness: 0.4915740346863626
+--------------------
+Generation 11
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 213.0
+Distance: 0.4915740346863626 Fitness: 0.4915740346863626
+--------------------
+Generation 12
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 183.0
+Distance: 0.49839481010961645 Fitness: 0.49839481010961645
+--------------------
+Generation 13
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 125.0
+Distance: 0.4976970306435157 Fitness: 0.4976970306435157
+--------------------
+Generation 14
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 114.0
+Distance: 0.48944017158050596 Fitness: 0.48944017158050596
+--------------------
+Generation 15
+Best individual: G((wasAction(co.z2) or (wasAction(co.z2) or F(!(X(wasAction(co.z0)))))))
+Fitness: [0.07142857142857142 1.0 0.9944693879436137]
+Strength: 148.0
+Distance: 0.49704044792601837 Fitness: 0.49704044792601837
+--------------------
+Generation 16
+Best individual: G((wasAction(co.z2) or (wasAction(co.z2) or F(!(X(wasAction(co.z0)))))))
+Fitness: [0.07142857142857142 1.0 0.9944693879436137]
+Strength: 142.0
+Distance: 0.49776036487251263 Fitness: 0.49776036487251263
+--------------------
+Generation 17
+Best individual: G((wasAction(co.z2) or (wasAction(co.z2) or F(!(X(wasAction(co.z0)))))))
+Fitness: [0.07142857142857142 1.0 0.9944693879436137]
+Strength: 134.0
+Distance: 0.49704044792601837 Fitness: 0.49704044792601837
+--------------------
+Generation 18
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 155.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 19
+Best individual: G((!(wasEvent(ep.D)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9882737833594977]
+Strength: 111.0
+Distance: 0.4921875 Fitness: 0.4921875
+--------------------
+Generation 20
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 152.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 21
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 108.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 22
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 103.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 23
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 103.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 24
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 120.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 25
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 86.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 26
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 157.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 27
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 94.0
+Distance: 0.48944487394667846 Fitness: 0.48944487394667846
+--------------------
+Generation 28
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 134.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 29
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 153.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 30
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 139.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 31
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 160.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 32
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 145.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 33
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 168.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 34
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 141.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 35
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 170.0
+Distance: 0.49854355322721794 Fitness: 0.49854355322721794
+--------------------
+Generation 36
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 134.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 37
+Best individual: G((wasAction(co.z2) or (wasAction(co.z2) or F(!(X(wasAction(co.z0)))))))
+Fitness: [0.07142857142857142 1.0 0.9944693879436137]
+Strength: 171.0
+Distance: 0.49979600163198695 Fitness: 0.49979600163198695
+--------------------
+Generation 38
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 134.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 39
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 178.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 40
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 146.0
+Distance: 0.49218746027275856 Fitness: 0.49218746027275856
+--------------------
+Generation 41
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 132.0
+Distance: 0.48943636642349436 Fitness: 0.48943636642349436
+--------------------
+Generation 42
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 148.0
+Distance: 0.49854355322721794 Fitness: 0.49854355322721794
+--------------------
+Generation 43
+Best individual: G((wasAction(co.z2) or F(!(X(wasAction(co.z0))))))
+Fitness: [0.08333333333333333 1.0 0.9941632654946341]
+Strength: 180.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+Generation 44
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 121.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+Generation 45
+Best individual: G((!(wasAction(co.z0)) or !(X(wasAction(co.z0)))))
+Fitness: [0.14285714285714285 1.0 0.9884941673710904]
+Strength: 189.0
+Distance: 0.48944487394667846 Fitness: 0.48944487394667846
+--------------------
+Generation 46
+Best individual: G((!(R(X(wasAction(co.z0)), wasAction(co.z2))) or wasEvent(ep.D)))
+Fitness: [0.06666666666666667 1.0 0.9982592729947375]
+Strength: 153.0
+Distance: 0.49848312466354344 Fitness: 0.49848312466354344
+--------------------
+Generation 47
+Best individual: G((wasAction(co.z2) or F(!(X(X(wasAction(co.z0)))))))
+Fitness: [0.07142857142857142 1.0 0.9944693879436137]
+Strength: 194.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+Generation 48
+Best individual: G((wasAction(co.z2) or F(!(X(wasAction(co.z0))))))
+Fitness: [0.08333333333333333 1.0 0.9941632654946341]
+Strength: 165.0
+Distance: 0.5 Fitness: 0.5
+--------------------
+Generation 49
+Best individual: G((wasAction(co.z2) or F(!(wasAction(co.z0)))))
+Fitness: [0.1 1.0 0.9936530614130015]
+Strength: 175.0
+Distance: 0.5 Fitness: 0.5
+--------------------
