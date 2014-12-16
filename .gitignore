@@ -36,3 +36,8 @@ results
 check-results
 ltlgen/StatisticsParser.java
 get_stats.sh
+
+# Report data
+report/report.log
+report/report.aux
+report/report.pdf
