@@ -11,9 +11,9 @@ JFLAGS =
 RESOURCES = -cp resources/ecj.22.jar:resources/verifier.jar:.
 
 DIRS = ltlgen/*.java \
-	   ltlgen/fitnesses/*.java \
-	   ltlgen/filters/*.java \
-	   ltlgen/formulas/*.java
+       ltlgen/fitnesses/*.java \
+       ltlgen/filters/*.java \
+       ltlgen/formulas/*.java
 
 all:
 	${JAVAC} ${DIRS}
