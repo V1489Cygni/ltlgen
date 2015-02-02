@@ -41,3 +41,4 @@ get_stats.sh
 report/report.log
 report/report.aux
 report/report.pdf
+report/report.toc
