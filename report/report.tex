@@ -115,14 +115,17 @@ $$
 
 \FloatBarrier
 
-\begin{figure}[!h]
+\begin{figure}[!h]%
   \centering
-    \includegraphics[scale=0.45]{t1.png}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-    \includegraphics[scale=0.45]{t2.png}
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t1.png}
+  \end{minipage}%
+  \qquad
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t2.png}
+  \end{minipage}%
 \end{figure}
 
 \FloatBarrier
@@ -131,19 +134,22 @@ $$
 
 \FloatBarrier
 
-\begin{figure}[!h]
+\begin{figure}[!h]%
   \centering
-    \includegraphics[scale=0.45]{t3.png}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-    \includegraphics[scale=0.45]{t4.png}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-    \includegraphics[scale=0.45]{t5.png}
+  \begin{minipage}{1.5in}%
+    \centering
+    \includegraphics[scale=0.3]{t3.png}
+  \end{minipage}%
+  \qquad
+  \begin{minipage}{1.5in}%
+    \centering
+    \includegraphics[scale=0.3]{t4.png}
+  \end{minipage}%
+  \qquad
+  \begin{minipage}{1.5in}%
+    \centering
+    \includegraphics[scale=0.3]{t5.png}
+  \end{minipage}%
 \end{figure}
 
 \FloatBarrier
@@ -154,7 +160,7 @@ $$
 
 \begin{figure}[!h]
   \centering
-    \includegraphics[scale=0.45]{t6.png}
+  \includegraphics[scale=0.3]{t6.png}
 \end{figure}
 
 \FloatBarrier
@@ -163,24 +169,30 @@ $$
 
 \FloatBarrier
 
-\begin{figure}[!h]
+\begin{figure}[!h]%
   \centering
-    \includegraphics[scale=0.45]{t7.png}
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t7.png}
+  \end{minipage}%
+  \qquad
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t8.png}
+  \end{minipage}%
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!h]%
   \centering
-    \includegraphics[scale=0.45]{t8.png}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-    \includegraphics[scale=0.45]{t9.png}
-\end{figure}
-
-\begin{figure}[!h]
-  \centering
-    \includegraphics[scale=0.45]{t10.png}
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t9.png}
+  \end{minipage}%
+  \qquad
+  \begin{minipage}{2in}%
+    \centering
+    \includegraphics[scale=0.3]{t10.png}
+  \end{minipage}%
 \end{figure}
 
 \FloatBarrier
@@ -193,15 +205,19 @@ $$
 строго лучше. Множеством оптимальных решений называются решения, над которыми никто не доминирует. Таким образом
 в качестве результата работы алгоритма будет получен фронт решений, являющихся оптимальными.
 
-\begin{figure}[!hb]
+\FloatBarrier
+
+\begin{figure}[!h]
   \centering
-    \includegraphics[scale=0.4]{opt.png}
+    \includegraphics[scale=0.3]{opt.png}
   \caption{Красным цветом отмечены оптимальные решения задачи оптимизации функций $f$ и $g$.}
 \end{figure}
 
+\FloatBarrier
+
 \subsection{Постановка задачи}
 
-Пусть задан входной автомат $a$. Требуется найти удовлетворяющие ему формулы, оптимальные в смысле ранее указанных
+Пусть задан входной автомат $a$. Требуется найти формулы, которым он удовлетворяет, оптимальные в смысле ранее указанных
 двух свойств. Формализуем их.
 
 Пусть $A_f$ --- множество всех возможных автоматов, удовлетворяющих некоторой формуле $f$. Будем считать,
@@ -238,7 +254,7 @@ $$
 3. С помощью бинарного турнира выбрать особи из $A_{t+1}$ для скрещивания с целью получения новой популяции. 
 
 В качестве критериев оптимизации будем использовать: удовлетворение входного автомата формуле, минимальность веса
-формулы и минимальность числа автоматов, которым удовлетворяет формула. Очевидно, однако, что вычисление последнего
+формулы и минимальность числа автоматов, удовлетворяющих формуле. Очевидно, однако, что вычисление последнего
 критерия не представляется возможным даже при условии небольшого числа состояний в автомате. Поэтому в дальнейшем будут
 рассмотрены несколько критериев и их комбинаций, эффективно приближающих требуемое. Позже будет приведен
 анализ качества их работы.
